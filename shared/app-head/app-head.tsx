@@ -1,7 +1,11 @@
-import React from "react";
+import React, {FC} from "react";
 import Head from "next/head";
 
-function AppHead({ title }) {
+interface AppHeadProps {
+    title?: String
+}
+
+const AppHead: FC<AppHeadProps> = ({ title }) => {
   return (
     <Head>
       <title>پیش شماره | جستجوی اطلاعات تماس</title>
