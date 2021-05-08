@@ -5,6 +5,8 @@ import { css } from "@emotion/css";
 import ActivableMenuItem from "@components/drop-down/activable-menu-item";
 import DropDownItem from "@dataTypes/drop-down-item";
 
+import { ChevronDownIcon } from "@heroicons/react/solid";
+
 interface DropDownProps {
   items: DropDownItem[];
   onChange: (item: DropDownItem) => void;
@@ -44,7 +46,10 @@ const DropDown: FC<DropDownProps> = ({ items, onChange }) => {
   return (
     <Menu>
       <Menu.Button className={buttonClasses}>
-        {selected.title}
+        <div className="flex items-center">
+          {selected.title}
+          <ChevronDownIcon className="h-5 w-5 mr-1 top" />
+        </div>
         <Menu.Items as="div" className={popupClasses}>
           {MenuItems}
         </Menu.Items>
