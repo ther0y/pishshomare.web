@@ -13,12 +13,11 @@ const PhoneCard: FC<{ data: any }> = ({ data }) => {
         className={`absolute right-0 h-full w-8 top-0 flex items-center justify-center ${category?.classes} text-white`}
       >
         <div
-          className="transform -rotate-90 text-sm w-8"
+          className="transform -rotate-90 text-sm w-8 table"
           style={{
             whiteSpace: "nowrap",
             overflow: "visible",
             textOverflow: "ellipsis",
-            width: "fit-content",
           }}
         >
           {category?.title}
