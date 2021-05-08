@@ -1,8 +1,8 @@
-import React, {FC} from "react";
+import React, { FC } from "react";
 import AppHead from "@shared/app-head/app-head";
 
 interface MainLayoutProps {
-    title?: string
+  title?: string;
 }
 
 const MainLayout: FC<MainLayoutProps> = ({ children, title, ...props }) => {
@@ -12,6 +12,6 @@ const MainLayout: FC<MainLayoutProps> = ({ children, title, ...props }) => {
       {children}
     </div>
   );
-}
+};
 
 export default MainLayout;
