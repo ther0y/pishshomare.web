@@ -5,6 +5,8 @@ const SearchCategoryType = {
   States: "States",
   Countries: "Countries",
   Embassies: "Embassies",
+  Plates: "Plates",
+  Tehran: "Tehran",
 };
 
 export default SearchCategoryType;
