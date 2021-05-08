@@ -1,22 +1,22 @@
 import MainLayout from "@layouts/main";
-import SearchInput from "@components/search-input/search-input";
+import HomePage from "@components/home-page/home-page";
+import { SearchCodes } from "@content/code-helpers";
+import { GetStaticProps } from "next";
+import { PhoneCode } from "@dataTypes/phone-code";
+import SearchCategoryType from "@dataTypes/search-category-type";
 
-export default function Home() {
+export default function Home(props: { codes: PhoneCode[] }) {
   return (
     <MainLayout>
-      <div
-        className="pt-8 pb-0 bg-gradient-to-r from-lightBlue-400 to-lightBlue-500"
-        dir="rtl"
-      >
-        <div className="max-w-4xl flex flex-col justify-center mx-auto p-4">
-          <div className="mb-4 text-2xl sm:text-3xl font-semibold text-white">
-            پیش‌شماره
-          </div>
-          <div className="flex-1 max-w-4xl">
-            <SearchInput />
-          </div>
-        </div>
-      </div>
+      <HomePage codes={props.codes} />
     </MainLayout>
   );
 }
+
+export const getStaticProps: GetStaticProps = async () => {
+  return {
+    props: {
+      codes: SearchCodes("", SearchCategoryType.All),
+    },
+  };
+};

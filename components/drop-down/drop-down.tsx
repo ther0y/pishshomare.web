@@ -30,7 +30,7 @@ const DropDown: FC<DropDownProps> = ({ items, onChange }) => {
     position: "absolute",
     minWidth: "160px",
     overflow: "hidden",
-    ...tw`bg-white shadow-lg rounded border-0 top-0 left-0 lg:right--1`,
+    ...tw`bg-white shadow-lg rounded border-0 top-0 left-0 lg:right--1 z-10`,
   });
 
   const MenuItems = items.map((item) => (

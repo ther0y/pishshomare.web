@@ -1,54 +1,27 @@
 import React, { FC, useEffect, useState } from "react";
 import DropDown from "@components/drop-down/drop-down";
-import SearchCategoryType from "@components/search-input/search-category-type";
+import { SearchCategories } from "@components/search-input/search-categories";
+import { PhoneCode } from "@dataTypes/phone-code";
+import { SearchCodes } from "@content/code-helpers";
 
 interface SearchInputProps {
   placeholder?: string;
   fill?: boolean;
+  onResult: (codes: PhoneCode[]) => void;
 }
-
-const categories = [
-  {
-    title: "همه",
-    value: SearchCategoryType.All,
-  },
-  {
-    title: "ضروری",
-    value: SearchCategoryType.Emergencies,
-  },
-  {
-    title: "اپراتور ها",
-    value: SearchCategoryType.Operators,
-  },
-  {
-    title: "شهر‌ها و استان ها",
-    value: SearchCategoryType.States,
-  },
-  {
-    title: "کشور‌ ها",
-    value: SearchCategoryType.Countries,
-  },
-  {
-    title: "سفارتخانه ها",
-    value: SearchCategoryType.Embassies,
-  },
-];
 
 const SearchInput: FC<SearchInputProps> = ({
   placeholder = "جستجو با نام یا شماره",
   fill = true,
+  onResult,
 }) => {
   const [query, setQuery] = useState("");
-  const [category, setCategory] = useState(categories[0]);
+  const [category, setCategory] = useState(SearchCategories[0]);
 
   useEffect(() => {
-    search(query, category.value);
-  }, [query, category]);
-
-  const search = (query: string, category: string) => {
-    //TODO: Implement Search functionality
-    console.log({ query, category });
-  };
+    const result = SearchCodes(query, category.value);
+    onResult(result);
+  }, [query, category, onResult]);
 
   return (
     <div
@@ -64,7 +37,7 @@ const SearchInput: FC<SearchInputProps> = ({
         onChange={(e) => setQuery(e.target.value)}
       />
       <div className="">
-        <DropDown onChange={setCategory} items={categories} />
+        <DropDown onChange={setCategory} items={SearchCategories} />
       </div>
     </div>
   );
