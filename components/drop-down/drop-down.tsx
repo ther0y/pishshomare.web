@@ -30,8 +30,7 @@ const DropDown: FC<DropDownProps> = ({ items, onChange }) => {
     position: "absolute",
     minWidth: "160px",
     overflow: "hidden",
-    right: "-1px",
-    ...tw`bg-white shadow-md rounded border-0 top-0`,
+    ...tw`bg-white shadow-lg rounded border-0 top-0 left-0 lg:right--1`,
   });
 
   const MenuItems = items.map((item) => (
@@ -46,7 +45,7 @@ const DropDown: FC<DropDownProps> = ({ items, onChange }) => {
   return (
     <Menu>
       <Menu.Button className={buttonClasses}>
-        <div className="flex items-center">
+        <div className="flex items-center text-xs sm:text-base">
           {selected.title}
           <ChevronDownIcon className="h-5 w-5 mr-1 top" />
         </div>

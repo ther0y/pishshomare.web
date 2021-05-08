@@ -17,10 +17,10 @@ const ActivableMenuItem: FC<ActivableMenuItemProps> = ({
 }) => (
   <Menu.Item disabled={disabled} onClick={() => onSelect && onSelect(item)}>
     {({ active }) => {
-      const classes = active
-        ? "bg-indigo-400 text-white"
-        : selected
-        ? "bg-indigo-500 text-white"
+      const classes = selected
+        ? "bg-lightBlue-500 text-white"
+        : active
+        ? "bg-lightBlue-400 text-white"
         : "bg-white text-gray-900";
 
       return (

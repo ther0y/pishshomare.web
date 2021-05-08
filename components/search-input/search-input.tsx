@@ -52,7 +52,7 @@ const SearchInput: FC<SearchInputProps> = ({
 
   return (
     <div
-      className={`flex items-center bg-white shadow rounded border-0 py-3 text-lg  ${
+      className={`flex items-center bg-white shadow rounded border py-3 text-md sm:text-lg  ${
         fill && "w-full"
       }`}
     >
@@ -63,7 +63,9 @@ const SearchInput: FC<SearchInputProps> = ({
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-      <DropDown onChange={setCategory} items={categories} />
+      <div className="">
+        <DropDown onChange={setCategory} items={categories} />
+      </div>
     </div>
   );
 };
