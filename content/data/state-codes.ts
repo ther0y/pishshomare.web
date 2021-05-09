@@ -1,57 +1,167 @@
 export const StateCodes = [
     {
-        "name": "آذربایجان شرقی ۰۴۱",
-        "eng": "East Azerbaijan 041",
+        "name": {
+            "fa": "آذربایجان شرقی",
+            "en": "East Azerbaijan"
+        },
+        "number": {
+            "fa": [
+                "۰۴۱"
+            ],
+            "en": [
+                "041"
+            ]
+        },
         "type": "States"
     },
     {
-        "name": "آذربایجان غربی ۰۴۴",
-        "eng": "West Azerbaijan 044",
+        "name": {
+            "fa": "آذربایجان غربی",
+            "en": "West Azerbaijan"
+        },
+        "number": {
+            "fa": [
+                "۰۴۴"
+            ],
+            "en": [
+                "044"
+            ]
+        },
         "type": "States"
     },
     {
-        "name": "اردبیل ۰۴۵",
-        "eng": "Ardabil 045",
+        "name": {
+            "fa": "اردبیل",
+            "en": "Ardabil"
+        },
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۴۵"
+            ],
+            "en": [
+                "045"
+            ]
+        }
+    },
+    {
+        "name": {
+            "fa": "اصفهان",
+            "en": "Isfahan"
+        },
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۳۱"
+            ],
+            "en": [
+                "031"
+            ]
+        }
+    },
+    {
+        "name": {
+            "fa": "البرز",
+            "en": "Alborz"
+        },
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۲۶"
+            ],
+            "en": [
+                "026"
+            ]
+        }
+    },
+    {
+        "name": {
+            "fa": "ایلام",
+            "en": "Ilam"
+        },
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۸۴"
+            ],
+            "en": [
+                "084"
+            ]
+        }
+    },
+    {
+        "name": {
+            "fa": "بوشهر",
+            "en": "Bushehr"
+        },
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۷۷"
+            ],
+            "en": [
+                "077"
+            ]
+        }
+    },
+    {
+        "name": {
+            "fa": "تهران",
+            "en": "Tehran"
+        },
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۲۱"
+            ],
+            "en": [
+                "021"
+            ]
+        }
+    },
+    {
+        "name": {
+            "fa": "چهارمحال و بختیاری",
+            "en": "Chahar Mahaal Bakhtiari"
+        },
+        "number": {
+            "fa": [
+                "۰۳۸"
+            ],
+            "en": [
+                "038"
+            ]
+        },
         "type": "States"
     },
     {
-        "name": "اصفهان ۰۳۱",
-        "eng": "Isfahan 031",
+        "name": {
+            "fa": "خراسان جنوبی",
+            "en": "South Khorasan"
+        },
+        "number": {
+            "fa": [
+                "۰۵۶"
+            ],
+            "en": [
+                "056"
+            ]
+        },
         "type": "States"
     },
     {
-        "name": "البرز ۰۲۶",
-        "eng": "Alborz 026",
-        "type": "States"
-    },
-    {
-        "name": "ایلام ۰۸۴",
-        "eng": "Ilam 084",
-        "type": "States"
-    },
-    {
-        "name": "بوشهر ۰۷۷",
-        "eng": "Bushehr 077",
-        "type": "States"
-    },
-    {
-        "name": "تهران ۰۲۱",
-        "eng": "Tehran 021",
-        "type": "States"
-    },
-    {
-        "name": "چهارمحال و بختیاری ۰۳۸",
-        "eng": "Chahar-Mahaal-Bakhtiari 038",
-        "type": "States"
-    },
-    {
-        "name": "خراسان جنوبی ۰۵۶",
-        "eng": "Khorasan South 056",
-        "type": "States"
-    },
-    {
-        "name": "خراسان رضوی ۰۵۱",
-        "eng": "Khorasan Razavi 051",
+        "name": {
+            "fa": "خراسان رضوی",
+            "en": "Khorasan Razavi"
+        },
+        "number": {
+            "fa": [
+                "۰۵۱"
+            ],
+            "en": [
+                "051"
+            ]
+        },
         "cities": [
             {
                 "name": "05 خلق آباد"
@@ -2451,38 +2561,100 @@ export const StateCodes = [
         "type": "States"
     },
     {
-        "name": "خراسان شمالی ۰۵۸",
-        "eng": "Khorasan North 058",
+        "name": {
+            "fa": "خراسان شمالی",
+            "en": "North Khorasan"
+        },
+        "number": {
+            "fa": [
+                "۰۵۸"
+            ],
+            "en": [
+                "058"
+            ]
+        },
         "type": "States"
     },
     {
-        "name": "خوزستان ۰۶۱",
-        "eng": "Khuzestan 061",
+        "name": {
+            "fa": "خوزستان",
+            "en": "Khuzestan"
+        },
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۶۱"
+            ],
+            "en": [
+                "061"
+            ]
+        }
+    },
+    {
+        "name": {
+            "fa": "زنجان",
+            "en": "Zanjan"
+        },
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۲۴"
+            ],
+            "en": [
+                "024"
+            ]
+        }
+    },
+    {
+        "name": {
+            "fa": "سمنان",
+            "en": "Semnan"
+        },
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۲۳"
+            ],
+            "en": [
+                "023"
+            ]
+        }
+    },
+    {
+        "name": {
+            "fa": "سیستان و بلوچستان",
+            "en": "Sistan Baluchestan"
+        },
+        "number": {
+            "fa": [
+                "۰۵۴"
+            ],
+            "en": [
+                "054"
+            ]
+        },
         "type": "States"
     },
     {
-        "name": "زنجان ۰۲۴",
-        "eng": "Zanjan 024",
-        "type": "States"
+        "name": {
+            "fa": "فارس",
+            "en": "Fars"
+        },
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۷۱"
+            ],
+            "en": [
+                "071"
+            ]
+        }
     },
     {
-        "name": "سمنان ۰۲۳",
-        "eng": "Semnan 023",
-        "type": "States"
-    },
-    {
-        "name": "سیستان و بلوچستان ۰۵۴",
-        "eng": "Sistan-Baluchestan 054",
-        "type": "States"
-    },
-    {
-        "name": "فارس ۰۷۱",
-        "eng": "Fars 071",
-        "type": "States"
-    },
-    {
-        "name": "قزوین ۰۲۸",
-        "eng": "Qazvin 028",
+        "name": {
+            "fa": "قزوین",
+            "en": "Qazvin"
+        },
         "cities": [
             {
                 "name": "آبگرم"
@@ -3013,11 +3185,21 @@ export const StateCodes = [
                 "name": "یحی آباد"
             }
         ],
-        "type": "States"
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۲۸"
+            ],
+            "en": [
+                "028"
+            ]
+        }
     },
     {
-        "name": "قم ۰۲۵",
-        "eng": "Qom 025",
+        "name": {
+            "fa": "قم",
+            "en": "Qom"
+        },
         "cities": [
             {
                 "name": "اسفید"
@@ -3221,11 +3403,21 @@ export const StateCodes = [
                 "name": "یکه باغ"
             }
         ],
-        "type": "States"
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۲۵"
+            ],
+            "en": [
+                "025"
+            ]
+        }
     },
     {
-        "name": "کردستان ۰۸۷",
-        "eng": "Kurdistan 087",
+        "name": {
+            "fa": "کردستان",
+            "en": "Kurdistan"
+        },
         "cities": [
             {
                 "name": "آرمرده"
@@ -3912,16 +4104,36 @@ export const StateCodes = [
                 "name": "یورقل"
             }
         ],
-        "type": "States"
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۸۷"
+            ],
+            "en": [
+                "087"
+            ]
+        }
     },
     {
-        "name": "کرمان ۰۳۴",
-        "eng": "Kerman 034",
-        "type": "States"
+        "name": {
+            "fa": "کرمان",
+            "en": "Kerman"
+        },
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۳۴"
+            ],
+            "en": [
+                "034"
+            ]
+        }
     },
     {
-        "name": "کرمانشاه ۰۸۳",
-        "eng": "Kermanshah 083",
+        "name": {
+            "fa": "کرمانشاه",
+            "en": "Kermanshah"
+        },
         "cities": [
             {
                 "name": "آئینه"
@@ -4398,11 +4610,29 @@ export const StateCodes = [
                 "name": "هلشی"
             }
         ],
-        "type": "States"
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۸۳"
+            ],
+            "en": [
+                "083"
+            ]
+        }
     },
     {
-        "name": "کهگیلویه و بویراحمد ۰۷۴",
-        "eng": "Kohgiluyeh-Boyer-Ahmad 074",
+        "name": {
+            "fa": "کهگیلویه و بویراحمد",
+            "en": "Kohgiluyeh Boyer Ahmad"
+        },
+        "number": {
+            "fa": [
+                "۰۷۴"
+            ],
+            "en": [
+                "074"
+            ]
+        },
         "cities": [
             {
                 "name": "یاسوج"
@@ -4783,8 +5013,10 @@ export const StateCodes = [
         "type": "States"
     },
     {
-        "name": "گلستان ۰۱۷",
-        "eng": "Golestan 017",
+        "name": {
+            "fa": "گلستان",
+            "en": "Golestan"
+        },
         "cities": [
             {
                 "name": "آب پران"
@@ -5513,11 +5745,21 @@ export const StateCodes = [
                 "name": "ینقاق"
             }
         ],
-        "type": "States"
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۱۷"
+            ],
+            "en": [
+                "017"
+            ]
+        }
     },
     {
-        "name": "گیلان ۰۱۳",
-        "eng": "Gilan 013",
+        "name": {
+            "fa": "گیلان",
+            "en": "Gilan"
+        },
         "cities": [
             {
                 "name": "آبکنار"
@@ -6567,16 +6809,36 @@ export const StateCodes = [
                 "name": "هلوسرا"
             }
         ],
-        "type": "States"
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۱۳"
+            ],
+            "en": [
+                "013"
+            ]
+        }
     },
     {
-        "name": "لرستان ۰۶۶",
-        "eng": "Lorestan 066",
-        "type": "States"
+        "name": {
+            "fa": "لرستان",
+            "en": "Lorestan"
+        },
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۶۶"
+            ],
+            "en": [
+                "066"
+            ]
+        }
     },
     {
-        "name": "مازندران ۰۱۱",
-        "eng": "Mazandaran 011",
+        "name": {
+            "fa": "مازندران",
+            "en": "Mazandaran"
+        },
         "cities": [
             {
                 "name": "آب اسک"
@@ -8022,11 +8284,21 @@ export const StateCodes = [
                 "name": "یوش"
             }
         ],
-        "type": "States"
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۱۱"
+            ],
+            "en": [
+                "011"
+            ]
+        }
     },
     {
-        "name": "مرکزی ۰۸۶",
-        "eng": "Markazi 086",
+        "name": {
+            "fa": "مرکزی",
+            "en": "Markazi"
+        },
         "cities": [
             {
                 "name": "آستانه"
@@ -8575,11 +8847,21 @@ export const StateCodes = [
                 "name": "یل آباد"
             }
         ],
-        "type": "States"
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۸۶"
+            ],
+            "en": [
+                "086"
+            ]
+        }
     },
     {
-        "name": "هرمزگان ۰۷۶",
-        "eng": "Hormozgan 076",
+        "name": {
+            "fa": "هرمزگان",
+            "en": "Hormozgan"
+        },
         "cities": [
             {
                 "name": "آبشورک"
@@ -9110,11 +9392,21 @@ export const StateCodes = [
                 "name": "هنگویه"
             }
         ],
-        "type": "States"
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۷۶"
+            ],
+            "en": [
+                "076"
+            ]
+        }
     },
     {
-        "name": "همدان ۰۸۱",
-        "eng": "Hamadan 081",
+        "name": {
+            "fa": "همدان",
+            "en": "Hamadan"
+        },
         "cities": [
             {
                 "name": "آب باریک"
@@ -10134,11 +10426,21 @@ export const StateCodes = [
                 "name": "یوسف آباد"
             }
         ],
-        "type": "States"
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۸۱"
+            ],
+            "en": [
+                "081"
+            ]
+        }
     },
     {
-        "name": "یزد ۰۳۵",
-        "eng": "Yazd 035",
+        "name": {
+            "fa": "یزد",
+            "en": "Yazd"
+        },
         "cities": [
             {
                 "name": "آریج"
@@ -10576,6 +10878,14 @@ export const StateCodes = [
                 "name": "یزد"
             }
         ],
-        "type": "States"
+        "type": "States",
+        "number": {
+            "fa": [
+                "۰۳۵"
+            ],
+            "en": [
+                "035"
+            ]
+        }
     }
-];
+]

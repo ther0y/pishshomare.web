@@ -1,6 +1,6 @@
-import SearchCategoryType from "@dataTypes/search-category-type";
 import { TehranCodes } from "@content/data/tehran-codes";
 import { PhoneCode } from "@dataTypes/phone-code";
+import SearchCategoryType from "@enums/search-category-type";
 
 const DataCategory = SearchCategoryType.Tehran;
 

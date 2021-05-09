@@ -1,1170 +1,3252 @@
 export const CountryCodes = [
   {
-    name: "افغانستان ۰۰۹۳",
-    eng: "Afghanistan 0093",
-    type: "Countries",
-  },
-  {
-    name: "آلبانی ۰۰۳۵۵",
-    eng: "Albania 00355",
-    type: "Countries",
-  },
-  {
-    name: "الجزایر ۰۰۲۱۳",
-    eng: "Algeria 00213",
-    type: "Countries",
-  },
-  {
-    name: "ساموآ آمریکا ۰۰۱۶۸۴ ",
-    eng: "American Samoa 001684",
-    type: "Countries",
-  },
-  {
-    name: "آندورا ۰۰۳۷۶",
-    eng: "Andorra 00376",
-    type: "Countries",
-  },
-  {
-    name: "آنگولا ۰۰۲۴۴",
-    eng: "Angola 00244",
-    type: "Countries",
-  },
-  {
-    name: "آنگویلا  ۰۰۱۲۶۴",
-    eng: "Anguilla 001264",
-    type: "Countries",
-  },
-  {
-    name: "قطب جنوب ۰۰۶۷۲",
-    eng: "Antarctica 00672",
-    type: "Countries",
-  },
-  {
-    name: "آنتیگوا و باربودا ۰۰۱۲۶۸ ",
-    eng: "Antigua and Barbuda 00168",
-    type: "Countries",
-  },
-  {
-    name: "آرژانتین ۰۰۵۴",
-    eng: "Argentina 0054",
-    type: "Countries",
-  },
-  {
-    name: "ارمنستان ۰۰۳۷۴",
-    eng: "Armenia 00374",
-    type: "Countries",
-  },
-  {
-    name: "آروبا ۰۰۲۹۷",
-    eng: "Aruba 00297",
-    type: "Countries",
-  },
-  {
-    name: "استرالیا ۰۰۶۱",
-    eng: "Australia 0061",
-    type: "Countries",
-  },
-  {
-    name: "اتریش ۰۰۴۳",
-    eng: "Austria 0043",
-    type: "Countries",
-  },
-  {
-    name: "آذربایجان ۰۰۹۹۴",
-    eng: "Azerbaijan 00994",
-    type: "Countries",
-  },
-  {
-    name: "باهاما  ۰۰۱۲۴۲",
-    eng: "Bahamas 001242",
-    type: "Countries",
-  },
-  {
-    name: "بحرین ۰۰۹۷۳",
-    eng: "Bahrain 00973",
-    type: "Countries",
-  },
-  {
-    name: "بنگلادش ۰۰۸۸۰",
-    eng: "Bangladesh 00880",
-    type: "Countries",
-  },
-  {
-    name: "باربادوس  ۰۰۱۲۴۶",
-    eng: "Barbados 001246",
-    type: "Countries",
-  },
-  {
-    name: "بلاروس ۰۰۳۷۵",
-    eng: "Belarus 00375",
-    type: "Countries",
-  },
-  {
-    name: "بلژیک ۰۰۳۲",
-    eng: "Belgium 0032",
-    type: "Countries",
-  },
-  {
-    name: "بلیز ۰۰۵۰۱",
-    eng: "Belize 00501",
-    type: "Countries",
-  },
-  {
-    name: "بنین ۰۰۲۲۹",
-    eng: "Benin 00229",
-    type: "Countries",
-  },
-  {
-    name: "برمودا  ۰۰۱۴۴۱",
-    eng: "Bermuda 001441",
-    type: "Countries",
-  },
-  {
-    name: "بوتان ۰۰۹۷۵",
-    eng: "Bhutan 00975",
-    type: "Countries",
-  },
-  {
-    name: "بولیوی ۰۰۵۹۱",
-    eng: "Bolivia 00591",
-    type: "Countries",
-  },
-  {
-    name: "بوسنی و هرزگوین ۰۰۳۸۷",
-    eng: "Bosnia and Herzegovina 00387",
-    type: "Countries",
-  },
-  {
-    name: "بوتسوانا ۰۰۲۶۷",
-    eng: "Botswana 00267",
-    type: "Countries",
-  },
-  {
-    name: "برزیل ۰۰۵۵",
-    eng: "Brazil 0055",
-    type: "Countries",
-  },
-  {
-    name: "جزایر ویرجین بریتانیا  ۰۰۱۲۸۴",
-    eng: "British Virgin Islands 001284",
-    type: "Countries",
-  },
-  {
-    name: "برونئی ۰۰۶۷۳",
-    eng: "Brunei 00673",
-    type: "Countries",
-  },
-  {
-    name: "بلغارستان ۰۰۳۵۹",
-    eng: "Bulgaria 00359",
-    type: "Countries",
-  },
-  {
-    name: "بورکینافاسو ۰۰۲۲۶",
-    eng: "Burkina Faso 00226",
-    type: "Countries",
-  },
-  {
-    name: "میانمار ۰۰۹۵",
-    eng: "Burma (Myanmar) 0095",
-    type: "Countries",
-  },
-  {
-    name: "بروندی ۰۰۲۵۷",
-    eng: "Burundi 00257",
-    type: "Countries",
-  },
-  {
-    name: "کامبوج ۰۰۸۵۵",
-    eng: "Cambodia 00855",
-    type: "Countries",
-  },
-  {
-    name: "کامرون ۰۰۲۳۷",
-    eng: "Cameroon 00237",
-    type: "Countries",
-  },
-  {
-    name: "کانادا ۰۰۱",
-    eng: "Canada 001",
-    type: "Countries",
-  },
-  {
-    name: "کیپ ورد ۰۰۲۳۸",
-    eng: "Cape Verde 00238",
-    type: "Countries",
-  },
-  {
-    name: "جزایر کیمن  ۰۰۱۳۴۵",
-    eng: "Cayman Islands 001345",
-    type: "Countries",
-  },
-  {
-    name: "آفریقای مرکزی ۰۰۲۳۶",
-    eng: "Central African Republic 00236",
-    type: "Countries",
-  },
-  {
-    name: "چاد ۰۰۲۳۵",
-    eng: "Chad 00235",
-    type: "Countries",
-  },
-  {
-    name: "شیلی ۰۰۵۶",
-    eng: "Chile 0056",
-    type: "Countries",
-  },
-  {
-    name: "چین ۰۰۸۶",
-    eng: "China 0086",
-    type: "Countries",
-  },
-  {
-    name: "جزیره کریسمس ۰۰۶۱",
-    eng: "Christmas Island 0061",
-    type: "Countries",
-  },
-  {
-    name: "جزایر کوکوس ۰۰۶۱",
-    eng: "Cocos (Keeling) Islands 0061",
-    type: "Countries",
-  },
-  {
-    name: "۰۰۵۷ کلمبیا",
-    eng: "Colombia 0057",
-    type: "Countries",
-  },
-  {
-    name: "کومور ۰۰۲۶۹",
-    eng: "Comoros 00269",
-    type: "Countries",
-  },
-  {
-    name: "جزایر کوک ۰۰۶۸۲",
-    eng: "Cook Islands 00682",
-    type: "Countries",
-  },
-  {
-    name: "کاستاریکا ۰۰۵۰۶",
-    eng: "Costa Rica 00506",
-    type: "Countries",
-  },
-  {
-    name: "کرواسی ۰۰۳۸۵",
-    eng: "Croatia 00385",
-    type: "Countries",
-  },
-  {
-    name: "کوبا ۰۰۵۳",
-    eng: "Cuba 0053",
-    type: "Countries",
-  },
-  {
-    name: "قبرس ۰۰۳۵۷",
-    eng: "Cyprus 00357",
-    type: "Countries",
-  },
-  {
-    name: "جمهوری چک ۰۰۴۲۰",
-    eng: "Czech Republic 00420",
-    type: "Countries",
-  },
-  {
-    name: "کنگو ۰۰۲۴۳",
-    eng: "Democratic Republic of the Congo 00243",
-    type: "Countries",
-  },
-  {
-    name: "دانمارک ۰۰۴۵",
-    eng: "Denmark 0045",
-    type: "Countries",
-  },
-  {
-    name: "جیبوتی ۰۰۲۵۳",
-    eng: "Djibouti 00253",
-    type: "Countries",
-  },
-  {
-    name: "دومینیکا  ۰۰۱۷۶۷",
-    eng: "Dominica 001767",
-    type: "Countries",
-  },
-  {
-    name: "جمهوری دومینیکن  ۰۰۱۸۰۹",
-    eng: "Dominican Republic 001809",
-    type: "Countries",
-  },
-  {
-    name: "اکوادور ۰۰۵۹۳",
-    eng: "Ecuador 00593",
-    type: "Countries",
-  },
-  {
-    name: "مصر ۰۰۲۰",
-    eng: "Egypt 0020",
-    type: "Countries",
-  },
-  {
-    name: "ال سالوادور ۰۰۵۰۳",
-    eng: "El Salvador 00503",
-    type: "Countries",
-  },
-  {
-    name: "گینه استوایی ۰۰۲۴۰",
-    eng: "Equatorial Guinea 00240",
-    type: "Countries",
-  },
-  {
-    name: "اریتره ۰۰۲۹۱",
-    eng: "Eritrea 00291",
-    type: "Countries",
-  },
-  {
-    name: "استونی ۰۰۳۷۲",
-    eng: "Estonia 00372",
-    type: "Countries",
-  },
-  {
-    name: "اتیوپی ۰۰۲۵۱",
-    eng: "Ethiopia 00251",
-    type: "Countries",
-  },
-  {
-    name: "جزایر فالکلند ۰۰۵۰۰",
-    eng: "Falkland Islands 00500",
-    type: "Countries",
-  },
-  {
-    name: "جزایر فارو ۰۰۲۹۸",
-    eng: "Faroe Islands 00298",
-    type: "Countries",
-  },
-  {
-    name: "فیجی ۰۰۶۷۹",
-    eng: "Fiji 00679",
-    type: "Countries",
-  },
-  {
-    name: "فنلاند ۰۰۳۵۸",
-    eng: "Finland 00358",
-    type: "Countries",
-  },
-  {
-    name: "فرانسه ۰۰۳۳",
-    eng: "France 0033",
-    type: "Countries",
-  },
-  {
-    name: "پلینزی فرانسه ۰۰۶۸۹",
-    eng: "French Polynesia 00689",
-    type: "Countries",
-  },
-  {
-    name: "گابن ۰۰۲۴۱",
-    eng: "Gabon 00241",
-    type: "Countries",
-  },
-  {
-    name: "گامبیا ۰۰۲۲۰",
-    eng: "Gambia 00220",
-    type: "Countries",
-  },
-  {
-    name: "نوار غزه ۰۰۹۷۰",
-    eng: "Gaza Strip 00970",
-    type: "Countries",
-  },
-  {
-    name: "گرجستان ۰۰۹۹۵",
-    eng: "Georgia 00995",
-    type: "Countries",
-  },
-  {
-    name: "آلمان ۰۰۴۹",
-    eng: "Germany 0049",
-    type: "Countries",
-  },
-  {
-    name: "غنا ۰۰۲۳۳",
-    eng: "Ghana 00233",
-    type: "Countries",
-  },
-  {
-    name: "جبل الطارق ۰۰۳۵۰",
-    eng: "Gibraltar 00350",
-    type: "Countries",
-  },
-  {
-    name: "یونان ۰۰۳۰",
-    eng: "Greece 0030",
-    type: "Countries",
-  },
-  {
-    name: "گرینلند ۰۰۲۹۹",
-    eng: "Greenland 00299",
-    type: "Countries",
-  },
-  {
-    name: "گرانادا  ۰۰۱۴۷۳",
-    eng: "Grenada 001473",
-    type: "Countries",
-  },
-  {
-    name: "گوام  ۰۰۱۶۷۱",
-    eng: "Guam 001671",
-    type: "Countries",
-  },
-  {
-    name: "گواتمالا ۰۰۵۰۲",
-    eng: "Guatemala 00502",
-    type: "Countries",
-  },
-  {
-    name: "گینه ۰۰۲۲۴",
-    eng: "Guinea 00224",
-    type: "Countries",
-  },
-  {
-    name: "گینه بیسائو ۰۰۲۴۵",
-    eng: "Guinea-Bissau 00245",
-    type: "Countries",
-  },
-  {
-    name: "گویان ۰۰۵۹۲",
-    eng: "Guyana 00592",
-    type: "Countries",
-  },
-  {
-    name: "هائیتی ۰۰۵۰۹",
-    eng: "Haiti 00509",
-    type: "Countries",
-  },
-  {
-    name: "واتیکان ۰۰۳۹",
-    eng: "Holy See (Vatican City) 0039",
-    type: "Countries",
-  },
-  {
-    name: "هندوراس ۰۰۵۰۴",
-    eng: "Honduras 00504",
-    type: "Countries",
-  },
-  {
-    name: "هنگ کنگ ۰۰۸۵۲",
-    eng: "Hong Kong 00852",
-    type: "Countries",
-  },
-  {
-    name: "مجارستان ۰۰۳۶",
-    eng: "Hungary 0036",
-    type: "Countries",
-  },
-  {
-    name: "ایسلند ۰۰۳۵۴",
-    eng: "Iceland 00354",
-    type: "Countries",
-  },
-  {
-    name: "هند ۰۰۹۱",
-    eng: "India 0091",
-    type: "Countries",
-  },
-  {
-    name: "اندونزی ۰۰۶۲",
-    eng: "Indonesia 0062",
-    type: "Countries",
-  },
-  {
-    name: "ایران ۰۰۹۸",
-    eng: "Iran 0098",
-    type: "Countries",
-  },
-  {
-    name: "عراق ۰۰۹۶۴",
-    eng: "Iraq 00964",
-    type: "Countries",
-  },
-  {
-    name: "ایرلند ۰۰۳۵۳",
-    eng: "Ireland 00353",
-    type: "Countries",
-  },
-  {
-    name: "جزیره من ۰۰۴۴",
-    eng: "Isle of Man 0044",
-    type: "Countries",
-  },
-  {
-    name: "اسرائیل ۰۰۹۷۲",
-    eng: "Israel 00972",
-    type: "Countries",
-  },
-  {
-    name: "ایتالیا ۰۰۳۹",
-    eng: "Italy 0039",
-    type: "Countries",
-  },
-  {
-    name: "ساحل عاج ۰۰۲۲۵",
-    eng: "Ivory Coast 00225",
-    type: "Countries",
-  },
-  {
-    name: "جاماییکا  ۰۰۱۸۷۶",
-    eng: "Jamaica 001876",
-    type: "Countries",
-  },
-  {
-    name: "ژاپن ۰۰۸۱",
-    eng: "Japan 0081",
-    type: "Countries",
-  },
-  {
-    name: "اردن ۰۰۹۶۲",
-    eng: "Jordan 00962",
-    type: "Countries",
-  },
-  {
-    name: "قزاقستان ۰۰۷",
-    eng: "Kazakhstan 007",
-    type: "Countries",
-  },
-  {
-    name: "کنیا ۰۰۲۵۴",
-    eng: "Kenya 00254",
-    type: "Countries",
-  },
-  {
-    name: "کریباتی ۰۰۶۸۶",
-    eng: "Kiribati 00686",
-    type: "Countries",
-  },
-  {
-    name: "کوزوو ۰۰۳۸۱",
-    eng: "Kosovo 00381",
-    type: "Countries",
-  },
-  {
-    name: "کویت ۰۰۹۶۵",
-    eng: "Kuwait 00965",
-    type: "Countries",
-  },
-  {
-    name: "قرقیزستان ۰۰۹۹۶",
-    eng: "Kyrgyzstan 00996",
-    type: "Countries",
-  },
-  {
-    name: "لائوس ۰۰۸۵۶",
-    eng: "Laos 00856",
-    type: "Countries",
-  },
-  {
-    name: "لتونی ۰۰۳۷۱",
-    eng: "Latvia 00371",
-    type: "Countries",
-  },
-  {
-    name: "لبنان ۰۰۹۶۱",
-    eng: "Lebanon 00961",
-    type: "Countries",
-  },
-  {
-    name: "لسوتو ۰۰۲۶۶",
-    eng: "Lesotho 00266",
-    type: "Countries",
-  },
-  {
-    name: "لیبریا ۰۰۲۳۱",
-    eng: "Liberia 00231",
-    type: "Countries",
-  },
-  {
-    name: "لیبی ۰۰۲۱۸",
-    eng: "Libya 00218",
-    type: "Countries",
-  },
-  {
-    name: "لیختنشتاین ۰۰۴۲۳",
-    eng: "Liechtenstein 00423",
-    type: "Countries",
-  },
-  {
-    name: "لیتوانی ۰۰۳۷۰",
-    eng: "Lithuania 00370",
-    type: "Countries",
-  },
-  {
-    name: "لوگزامبورگ ۰۰۳۵۲",
-    eng: "Luxembourg 00352",
-    type: "Countries",
-  },
-  {
-    name: "ماکلائو ۰۰۸۵۳",
-    eng: "Macau 00853",
-    type: "Countries",
-  },
-  {
-    name: "مقدونیه ۰۰۳۸۹",
-    eng: "Macedonia 00389",
-    type: "Countries",
-  },
-  {
-    name: "ماداگاسکار ۰۰۲۶۱",
-    eng: "Madagascar 00261",
-    type: "Countries",
-  },
-  {
-    name: "مالایو ۰۰۲۶۵",
-    eng: "Malawi 00265",
-    type: "Countries",
-  },
-  {
-    name: "مالزی ۰۰۶۰",
-    eng: "Malaysia 0060",
-    type: "Countries",
-  },
-  {
-    name: "مالدیو ۰۰۹۶۰",
-    eng: "Maldives 00960",
-    type: "Countries",
-  },
-  {
-    name: "مالی ۰۰۲۲۳",
-    eng: "Mali 00223",
-    type: "Countries",
-  },
-  {
-    name: "مالت ۰۰۳۵۶",
-    eng: "Malta 00356",
-    type: "Countries",
-  },
-  {
-    name: "جزایر مارشال ۰۰۶۹۲",
-    eng: "Marshall Islands 00692",
-    type: "Countries",
-  },
-  {
-    name: "موریتانی ۰۰۲۲۲",
-    eng: "Mauritania 00222",
-    type: "Countries",
-  },
-  {
-    name: "موریس ۰۰۲۳۰",
-    eng: "Mauritius 00230",
-    type: "Countries",
-  },
-  {
-    name: "مایوت ۰۰۲۶۲",
-    eng: "Mayotte 00262",
-    type: "Countries",
-  },
-  {
-    name: "مکزیک ۰۰۵۲",
-    eng: "Mexico 0052",
-    type: "Countries",
-  },
-  {
-    name: "میکرونزی ۰۰۶۹۱",
-    eng: "Micronesia 00691",
-    type: "Countries",
-  },
-  {
-    name: "مولداوی ۰۰۳۷۳",
-    eng: "Moldova 00373",
-    type: "Countries",
-  },
-  {
-    name: "موناکو ۰۰۳۷۷",
-    eng: "Monaco 00377",
-    type: "Countries",
-  },
-  {
-    name: "مغولستان ۰۰۹۷۶",
-    eng: "Mongolia 00976",
-    type: "Countries",
-  },
-  {
-    name: "مونتنگرو ۰۰۳۸۲",
-    eng: "Montenegro 00382",
-    type: "Countries",
-  },
-  {
-    name: "مونتسرات  ۰۰۱۶۶۴",
-    eng: "Montserrat 001664",
-    type: "Countries",
-  },
-  {
-    name: "مراکش ۰۰۲۱۲",
-    eng: "Morocco 00212",
-    type: "Countries",
-  },
-  {
-    name: "موزامبیک ۰۰۲۵۸",
-    eng: "Mozambique 00258",
-    type: "Countries",
-  },
-  {
-    name: "نامیبیا ۰۰۲۶۴",
-    eng: "Namibia 00264",
-    type: "Countries",
-  },
-  {
-    name: "نائورو ۰۰۶۷۴",
-    eng: "Nauru 00674",
-    type: "Countries",
-  },
-  {
-    name: "نپال ۰۰۹۷۷",
-    eng: "Nepal 00977",
-    type: "Countries",
-  },
-  {
-    name: "هلند ۰۰۳۱",
-    eng: "Netherlands 0031",
-    type: "Countries",
-  },
-  {
-    name: "آنتیل هلند ۰۰۵۹۹",
-    eng: "Netherlands Antilles 00599",
-    type: "Countries",
-  },
-  {
-    name: "کالدونیای جدید ۰۰۶۸۷",
-    eng: "New Caledonia 00687",
-    type: "Countries",
-  },
-  {
-    name: "نیوزلند ۰۰۶۴",
-    eng: "New Zealand 0064",
-    type: "Countries",
-  },
-  {
-    name: "نیکاراگوئه ۰۰۵۰۵",
-    eng: "Nicaragua 00505",
-    type: "Countries",
-  },
-  {
-    name: "نیجر ۰۰۲۲۷",
-    eng: "Niger 00227",
-    type: "Countries",
-  },
-  {
-    name: "نیجریه ۰۰۲۳۴",
-    eng: "Nigeria 00234",
-    type: "Countries",
-  },
-  {
-    name: "نیوئه ۰۰۶۸۳",
-    eng: "Niue 00683",
-    type: "Countries",
-  },
-  {
-    name: "جزیره نورفولک ۰۰۶۷۲",
-    eng: "Norfolk Island 00672",
-    type: "Countries",
-  },
-  {
-    name: "کره شمالی ۰۰۸۵۰",
-    eng: "North Korea 00850",
-    type: "Countries",
-  },
-  {
-    name: "جزایر ماریانای شمالی  ۰۰۱۶۷۰",
-    eng: "Northern Mariana Islands 001670",
-    type: "Countries",
-  },
-  {
-    name: "نروژ ۰۰۴۷",
-    eng: "Norway 0047",
-    type: "Countries",
-  },
-  {
-    name: "عمان ۰۰۹۶۸",
-    eng: "Oman 00968",
-    type: "Countries",
-  },
-  {
-    name: "پاکستان ۰۰۹۲",
-    eng: "Pakistan 0092",
-    type: "Countries",
-  },
-  {
-    name: "پالائو ۰۰۶۸۰",
-    eng: "Palau 00680",
-    type: "Countries",
-  },
-  {
-    name: "پاناما ۰۰۵۰۷",
-    eng: "Panama 00507",
-    type: "Countries",
-  },
-  {
-    name: "پاپوآ گینه نو ۰۰۶۷۵",
-    eng: "Papua New Guinea 00675",
-    type: "Countries",
-  },
-  {
-    name: "پاراگوئه ۰۰۵۹۵",
-    eng: "Paraguay 00595",
-    type: "Countries",
-  },
-  {
-    name: "پرو ۰۰۵۱",
-    eng: "Peru 0051",
-    type: "Countries",
-  },
-  {
-    name: "فیلیپین ۰۰۶۳",
-    eng: "Philippines 0063",
-    type: "Countries",
-  },
-  {
-    name: "جزایر پیت کرن ۰۰۸۷۰",
-    eng: "Pitcairn Islands 00870",
-    type: "Countries",
-  },
-  {
-    name: "لهستان ۰۰۴۸",
-    eng: "Poland 0048",
-    type: "Countries",
-  },
-  {
-    name: "پرتقال ۰۰۳۵۱",
-    eng: "Portugal 00351",
-    type: "Countries",
-  },
-  {
-    name: "پورتوریکو ۰۰۱",
-    eng: "Puerto Rico 001",
-    type: "Countries",
-  },
-  {
-    name: "قطر ۰۰۹۷۴",
-    eng: "Qatar 00974",
-    type: "Countries",
-  },
-  {
-    name: "جمهوری کنگو ۰۰۲۴۲",
-    eng: "Republic of the Congo 00242",
-    type: "Countries",
-  },
-  {
-    name: "رومانی ۰۰۴۰",
-    eng: "Romania 0040",
-    type: "Countries",
-  },
-  {
-    name: "روسیه ۰۰۷",
-    eng: "Russia 007",
-    type: "Countries",
-  },
-  {
-    name: "رواندا ۰۰۲۵۰",
-    eng: "Rwanda 00250",
-    type: "Countries",
-  },
-  {
-    name: "سنت بارتلمی ۰۰۵۹۰",
-    eng: "Saint Barthelemy 00590",
-    type: "Countries",
-  },
-  {
-    name: "سنت هلن ۰۰۲۹۰",
-    eng: "Saint Helena 00290",
-    type: "Countries",
-  },
-  {
-    name: "سنت کیتس و نویس  ۰۰۱۸۶۹",
-    eng: "Saint Kitts and Nevis 001869",
-    type: "Countries",
-  },
-  {
-    name: "سنت لوسیا  ۰۰۱۷۵۸",
-    eng: "Saint Lucia 0Saint Martin 01758",
-    type: "Countries",
-  },
-  {
-    name: "سنت مارتین  ۰۰۱۵۹۹",
-    eng: " 001599",
-    type: "Countries",
-  },
-  {
-    name: "سنت پیر و میکلون ۰۰۵۰۸",
-    eng: "Saint Pierre and Miquelon 00508",
-    type: "Countries",
-  },
-  {
-    name: "سنت وینسنت و گرنادین ۰۰۱ ۷۸۴",
-    eng: "Saint Vincent and the Grenadines 001 784",
-    type: "Countries",
-  },
-  {
-    name: "ساموآ ۰۰۶۸۵",
-    eng: "Samoa 00685",
-    type: "Countries",
-  },
-  {
-    name: "سن مارین ۰۰۳۷۸",
-    eng: "San Marino 00378",
-    type: "Countries",
-  },
-  {
-    name: "سائوتومه و پرنسیپ ۰۰۲۳۹",
-    eng: "Sao Tome and Principe 00239",
-    type: "Countries",
-  },
-  {
-    name: "عربستان ۰۰۹۶۶",
-    eng: "Saudi Arabia 00966",
-    type: "Countries",
-  },
-  {
-    name: "سنگال ۰۰۲۲۱",
-    eng: "Senegal 00221",
-    type: "Countries",
-  },
-  {
-    name: "صربستان ۰۰۳۸۱",
-    eng: "Serbia 00381",
-    type: "Countries",
-  },
-  {
-    name: "سیشل ۰۰۲۴۸",
-    eng: "Seychelles 00248",
-    type: "Countries",
-  },
-  {
-    name: "سیرالئون ۰۰۲۳۲",
-    eng: "Sierra Leone 00232",
-    type: "Countries",
-  },
-  {
-    name: "سنگاپور ۰۰۶۵",
-    eng: "Singapore 0065",
-    type: "Countries",
-  },
-  {
-    name: "اسلواکی ۰۰۴۲۱",
-    eng: "Slovakia 00421",
-    type: "Countries",
-  },
-  {
-    name: "اسلونی ۰۰۳۸۶",
-    eng: "Slovenia 00386",
-    type: "Countries",
-  },
-  {
-    name: "جزایر سلیمان ۰۰۶۷۷",
-    eng: "Solomon Islands 00677",
-    type: "Countries",
-  },
-  {
-    name: "سومالی ۰۰۲۵۲",
-    eng: "Somalia 00252",
-    type: "Countries",
-  },
-  {
-    name: "آفریقای جنوبی ۰۰۲۷",
-    eng: "South Africa 0027",
-    type: "Countries",
-  },
-  {
-    name: "کره جنوبی ۰۰۸۲",
-    eng: "South Korea 0082",
-    type: "Countries",
-  },
-  {
-    name: "اسپانیا ۰۰۳۴",
-    eng: "Spain 0034",
-    type: "Countries",
-  },
-  {
-    name: "سریلانکا ۰۰۹۴",
-    eng: "Sri Lanka 0094",
-    type: "Countries",
-  },
-  {
-    name: "سودان ۰۰۲۴۹",
-    eng: "Sudan 00249",
-    type: "Countries",
-  },
-  {
-    name: "سورینام ۰۰۵۹۷",
-    eng: "Suriname 00597",
-    type: "Countries",
-  },
-  {
-    name: "سوازیلند ۰۰۲۶۸",
-    eng: "Swaziland 00268",
-    type: "Countries",
-  },
-  {
-    name: "سوئد ۰۰۴۶",
-    eng: "Sweden 0046",
-    type: "Countries",
-  },
-  {
-    name: "سویس ۰۰۴۱",
-    eng: "Switzerland 0041",
-    type: "Countries",
-  },
-  {
-    name: "سوریه ۰۰۹۶۳",
-    eng: "Syria 00963",
-    type: "Countries",
-  },
-  {
-    name: "تایوان ۰۰۸۸۶",
-    eng: "Taiwan 00886",
-    type: "Countries",
-  },
-  {
-    name: "تاجیکستان ۰۰۹۹۲",
-    eng: "Tajikistan 00992",
-    type: "Countries",
-  },
-  {
-    name: "تانزانیا ۰۰۲۵۵",
-    eng: "Tanzania 00255",
-    type: "Countries",
-  },
-  {
-    name: "تایلند ۰۰۶۶",
-    eng: "Thailand 0066",
-    type: "Countries",
-  },
-  {
-    name: "تیمور شرق ۰۰۶۷۰",
-    eng: "Timor-Leste 00670",
-    type: "Countries",
-  },
-  {
-    name: "توگو ۰۰۲۲۸",
-    eng: "Togo 00228",
-    type: "Countries",
-  },
-  {
-    name: "توکلائو ۰۰۶۹۰",
-    eng: "Tokelau 00690",
-    type: "Countries",
-  },
-  {
-    name: "تونگا ۰۰۶۷۶",
-    eng: "Tonga 00676",
-    type: "Countries",
-  },
-  {
-    name: "ترینیداد و توباگو  ۰۰۱۸۶۸",
-    eng: "Trinidad and Tobago 001868",
-    type: "Countries",
-  },
-  {
-    name: "تونس ۰۰۲۱۶",
-    eng: "Tunisia 00216",
-    type: "Countries",
-  },
-  {
-    name: "ترکیه ۰۰۹۰",
-    eng: "Turkey 0090",
-    type: "Countries",
-  },
-  {
-    name: "ترکمنستان ۰۰۹۹۳",
-    eng: "Turkmenistan 00993",
-    type: "Countries",
-  },
-  {
-    name: "جزایر ترکس و کیاکوس  ۰۰۱۶۴۹",
-    eng: "Turks and Caicos Islands 001649",
-    type: "Countries",
-  },
-  {
-    name: "تووالو ۰۰۶۸۸",
-    eng: "Tuvalu 00688",
-    type: "Countries",
-  },
-  {
-    name: "اوگاندا ۰۰۲۵۶",
-    eng: "Uganda 00256",
-    type: "Countries",
-  },
-  {
-    name: "اوکراین ۰۰۳۸۰",
-    eng: "Ukraine 00380",
-    type: "Countries",
-  },
-  {
-    name: "امارات متحده عربی ۰۰۹۷۱",
-    eng: "United Arab Emirates 00971",
-    slang: "dubai, دوبی, دبی",
-    type: "Countries",
-  },
-  {
-    name: "انگلستان ۰۰۴۴",
-    eng: "United Kingdom 0044",
-    slang: "uk, انگلیس",
-    type: "Countries",
-  },
-  {
-    name: "ایالات متحده آمریکا ۰۰۱",
-    eng: "United States 001",
-    slang: "us , usa, امریکا",
-    type: "Countries",
-  },
-  {
-    name: "اروگوئه ۰۰۵۹۸",
-    eng: "Uruguay 00598",
-    type: "Countries",
-  },
-  {
-    name: "جزایر ویرجین ایالات متحده  ۰۰۱۳۴۰",
-    eng: "US Virgin Islands 001340",
-    type: "Countries",
-  },
-  {
-    name: "ازبکستان ۰۰۹۹۸",
-    eng: "Uzbekistan 00998",
-    type: "Countries",
-  },
-  {
-    name: "وانواتو ۰۰۶۷۸",
-    eng: "Vanuatu 00678",
-    type: "Countries",
-  },
-  {
-    name: "ونزوئلا ۰۰۵۸",
-    eng: "Venezuela 0058",
-    type: "Countries",
-  },
-  {
-    name: "ویتنام ۰۰۸۴",
-    eng: "Vietnam 0084",
-    type: "Countries",
-  },
-  {
-    name: "والیس و فوتونا ۰۰۶۸۱",
-    eng: "Wallis and Futuna 00681",
-    type: "Countries",
-  },
-  {
-    name: "بانک غرب ۰۰۹۷۰",
-    eng: "West Bank 00970",
-    type: "Countries",
-  },
-  {
-    name: "یمن ۰۰۹۶۷",
-    eng: "Yemen 00967",
-    type: "Countries",
-  },
-  {
-    name: "زامبیا ۰۰۲۶۰",
-    eng: "Zambia 00260",
-    type: "Countries",
-  },
-  {
-    name: "زیمباوه ۰۰۲۶۳",
-    eng: "Zimbabwe 00263",
+    name: {
+      fa: "افغانستان",
+      en: "Afghanistan",
+    },
+    number: {
+      fa: ["۰۰۹۳"],
+      en: ["0093"],
+    },
+    metadata: {
+      emoji: "🇦🇫",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "آلبانی",
+      en: "Albania",
+    },
+    number: {
+      fa: ["۰۰۳۵۵"],
+      en: ["00355"],
+    },
+    metadata: {
+      emoji: "🇦🇱",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "الجزایر",
+      en: "Algeria",
+    },
+    number: {
+      fa: ["۰۰۲۱۳"],
+      en: ["00213"],
+    },
+    metadata: {
+      emoji: "🇩🇿",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ساموآ آمریکا",
+      en: "American Samoa",
+    },
+    number: {
+      fa: ["۰۰۱۶۸۴"],
+      en: ["001684"],
+    },
+    metadata: {
+      emoji: "🇼🇸",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "آندورا",
+      en: "Andorra",
+    },
+    number: {
+      fa: ["۰۰۳۷۶"],
+      en: ["00376"],
+    },
+    metadata: {
+      emoji: "🇦🇩",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "آنگولا",
+      en: "Angola",
+    },
+    number: {
+      fa: ["۰۰۲۴۴"],
+      en: ["00244"],
+    },
+    metadata: {
+      emoji: "🇦🇴",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "آنگویلا",
+      en: "Anguilla",
+    },
+    number: {
+      fa: ["۰۰۱۲۶۴"],
+      en: ["001264"],
+    },
+    metadata: {
+      emoji: "🇦🇮",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "قطب جنوب",
+      en: "Antarctica",
+    },
+    number: {
+      fa: ["۰۰۶۷۲"],
+      en: ["00672"],
+    },
+    metadata: {
+      emoji: "🇦🇶",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "آنتیگوا و باربودا",
+      en: "Antigua and Barbuda",
+    },
+    number: {
+      fa: ["۰۰۱۲۶۸"],
+      en: ["00168"],
+    },
+    metadata: {
+      emoji: "🇦🇬",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "آرژانتین",
+      en: "Argentina",
+    },
+    number: {
+      fa: ["۰۰۵۴"],
+      en: ["0054"],
+    },
+    metadata: {
+      emoji: "🇦🇷",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ارمنستان",
+      en: "Armenia",
+    },
+    number: {
+      fa: ["۰۰۳۷۴"],
+      en: ["00374"],
+    },
+    metadata: {
+      emoji: "🇦🇲",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "آروبا",
+      en: "Aruba",
+    },
+    number: {
+      fa: ["۰۰۲۹۷"],
+      en: ["00297"],
+    },
+    metadata: {
+      emoji: "🇦🇼",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "استرالیا",
+      en: "Australia",
+    },
+    number: {
+      fa: ["۰۰۶۱"],
+      en: ["0061"],
+    },
+    metadata: {
+      emoji: "🇦🇺",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "اتریش",
+      en: "Austria",
+    },
+    number: {
+      fa: ["۰۰۴۳"],
+      en: ["0043"],
+    },
+    metadata: {
+      emoji: "🇦🇹",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "آذربایجان",
+      en: "Azerbaijan",
+    },
+    number: {
+      fa: ["۰۰۹۹۴"],
+      en: ["00994"],
+    },
+    metadata: {
+      emoji: "🇦🇿",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "باهاما",
+      en: "Bahamas",
+    },
+    number: {
+      fa: ["۰۰۱۲۴۲"],
+      en: ["001242"],
+    },
+    metadata: {
+      emoji: "🇧🇸",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "بحرین",
+      en: "Bahrain",
+    },
+    number: {
+      fa: ["۰۰۹۷۳"],
+      en: ["00973"],
+    },
+    metadata: {
+      emoji: "🇧🇭",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "بنگلادش",
+      en: "Bangladesh",
+    },
+    number: {
+      fa: ["۰۰۸۸۰"],
+      en: ["00880"],
+    },
+    metadata: {
+      emoji: "🇧🇩",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "باربادوس",
+      en: "Barbados",
+    },
+    number: {
+      fa: ["۰۰۱۲۴۶"],
+      en: ["001246"],
+    },
+    metadata: {
+      emoji: "🇧🇧",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "بلاروس",
+      en: "Belarus",
+    },
+    number: {
+      fa: ["۰۰۳۷۵"],
+      en: ["00375"],
+    },
+    metadata: {
+      emoji: "🇧🇾",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "بلژیک",
+      en: "Belgium",
+    },
+    number: {
+      fa: ["۰۰۳۲"],
+      en: ["0032"],
+    },
+    metadata: {
+      emoji: "🇧🇪",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "بلیز",
+      en: "Belize",
+    },
+    number: {
+      fa: ["۰۰۵۰۱"],
+      en: ["00501"],
+    },
+    metadata: {
+      emoji: "🇧🇿",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "بنین",
+      en: "Benin",
+    },
+    number: {
+      fa: ["۰۰۲۲۹"],
+      en: ["00229"],
+    },
+    metadata: {
+      emoji: "🇧🇯",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "برمودا",
+      en: "Bermuda",
+    },
+    number: {
+      fa: ["۰۰۱۴۴۱"],
+      en: ["001441"],
+    },
+    metadata: {
+      emoji: "🇧🇲",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "بوتان",
+      en: "Bhutan",
+    },
+    number: {
+      fa: ["۰۰۹۷۵"],
+      en: ["00975"],
+    },
+    metadata: {
+      emoji: "🇧🇹",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "بولیوی",
+      en: "Bolivia",
+    },
+    number: {
+      fa: ["۰۰۵۹۱"],
+      en: ["00591"],
+    },
+    metadata: {
+      emoji: "🇧🇴",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "بوسنی و هرزگوین",
+      en: "Bosnia and Herzegovina",
+    },
+    number: {
+      fa: ["۰۰۳۸۷"],
+      en: ["00387"],
+    },
+    metadata: {
+      emoji: "🇧🇦",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "بوتسوانا",
+      en: "Botswana",
+    },
+    number: {
+      fa: ["۰۰۲۶۷"],
+      en: ["00267"],
+    },
+    metadata: {
+      emoji: "🇧🇼",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "برزیل",
+      en: "Brazil",
+    },
+    number: {
+      fa: ["۰۰۵۵"],
+      en: ["0055"],
+    },
+    metadata: {
+      emoji: "🇧🇷",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جزایر ویرجین بریتانیا",
+      en: "British Virgin Islands",
+    },
+    number: {
+      fa: ["۰۰۱۲۸۴"],
+      en: ["001284"],
+    },
+    metadata: {
+      emoji: "🇻🇬",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "برونئی",
+      en: "Brunei",
+    },
+    number: {
+      fa: ["۰۰۶۷۳"],
+      en: ["00673"],
+    },
+    metadata: {
+      emoji: "🇧🇳",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "بلغارستان",
+      en: "Bulgaria",
+    },
+    number: {
+      fa: ["۰۰۳۵۹"],
+      en: ["00359"],
+    },
+    metadata: {
+      emoji: "🇧🇬",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "بورکینافاسو",
+      en: "Burkina Faso",
+    },
+    number: {
+      fa: ["۰۰۲۲۶"],
+      en: ["00226"],
+    },
+    metadata: {
+      emoji: "🇧🇫",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "میانمار",
+      en: "Burma (Myanmar)",
+    },
+    number: {
+      fa: ["۰۰۹۵"],
+      en: ["0095"],
+    },
+    metadata: {
+      emoji: "🇲🇲",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "بروندی",
+      en: "Burundi",
+    },
+    number: {
+      fa: ["۰۰۲۵۷"],
+      en: ["00257"],
+    },
+    metadata: {
+      emoji: "🇧🇮",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کامبوج",
+      en: "Cambodia",
+    },
+    number: {
+      fa: ["۰۰۸۵۵"],
+      en: ["00855"],
+    },
+    metadata: {
+      emoji: "🇰🇭",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کامرون",
+      en: "Cameroon",
+    },
+    number: {
+      fa: ["۰۰۲۳۷"],
+      en: ["00237"],
+    },
+    metadata: {
+      emoji: "🇨🇲",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کانادا",
+      en: "Canada",
+    },
+    number: {
+      fa: ["۰۰۱"],
+      en: ["001"],
+    },
+    metadata: {
+      emoji: "🇨🇦",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کیپ ورد",
+      en: "Cape Verde",
+    },
+    number: {
+      fa: ["۰۰۲۳۸"],
+      en: ["00238"],
+    },
+    metadata: {
+      emoji: "🇨🇻",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جزایر کیمن",
+      en: "Cayman Islands",
+    },
+    number: {
+      fa: ["۰۰۱۳۴۵"],
+      en: ["001345"],
+    },
+    metadata: {
+      emoji: "🇰🇾",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "آفریقای مرکزی",
+      en: "Central African Republic",
+    },
+    number: {
+      fa: ["۰۰۲۳۶"],
+      en: ["00236"],
+    },
+    metadata: {
+      emoji: "🇨🇫",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "چاد",
+      en: "Chad",
+    },
+    number: {
+      fa: ["۰۰۲۳۵"],
+      en: ["00235"],
+    },
+    metadata: {
+      emoji: "🇹🇩",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "شیلی",
+      en: "Chile",
+    },
+    number: {
+      fa: ["۰۰۵۶"],
+      en: ["0056"],
+    },
+    metadata: {
+      emoji: "🇨🇱",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "چین",
+      en: "China",
+    },
+    number: {
+      fa: ["۰۰۸۶"],
+      en: ["0086"],
+    },
+    metadata: {
+      emoji: "🇨🇳",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جزیره کریسمس",
+      en: "Christmas Island",
+    },
+    number: {
+      fa: ["۰۰۶۱"],
+      en: ["0061"],
+    },
+    metadata: {
+      emoji: "🇨🇽",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جزایر کوکوس",
+      en: "Cocos (Keeling) Islands",
+    },
+    number: {
+      fa: ["۰۰۶۱"],
+      en: ["0061"],
+    },
+    metadata: {
+      emoji: "🇨🇨",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کلمبیا",
+      en: "Colombia",
+    },
+    number: {
+      fa: ["۰۰۵۷"],
+      en: ["0057"],
+    },
+    metadata: {
+      emoji: "🇨🇴",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کومور",
+      en: "Comoros",
+    },
+    number: {
+      fa: ["۰۰۲۶۹"],
+      en: ["00269"],
+    },
+    metadata: {
+      emoji: "🇰🇲",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جزایر کوک",
+      en: "Cook Islands",
+    },
+    number: {
+      fa: ["۰۰۶۸۲"],
+      en: ["00682"],
+    },
+    metadata: {
+      emoji: "🇨🇰",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کاستاریکا",
+      en: "Costa Rica",
+    },
+    number: {
+      fa: ["۰۰۵۰۶"],
+      en: ["00506"],
+    },
+    metadata: {
+      emoji: "🇨🇷",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کرواسی",
+      en: "Croatia",
+    },
+    number: {
+      fa: ["۰۰۳۸۵"],
+      en: ["00385"],
+    },
+    metadata: {
+      emoji: "🇭🇷",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کوبا",
+      en: "Cuba",
+    },
+    number: {
+      fa: ["۰۰۵۳"],
+      en: ["0053"],
+    },
+    metadata: {
+      emoji: "🇨🇺",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "قبرس",
+      en: "Cyprus",
+    },
+    number: {
+      fa: ["۰۰۳۵۷"],
+      en: ["00357"],
+    },
+    metadata: {
+      emoji: "🇨🇾",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جمهوری چک",
+      en: "Czech Republic",
+    },
+    number: {
+      fa: ["۰۰۴۲۰"],
+      en: ["00420"],
+    },
+    metadata: {
+      emoji: "🇨🇿",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کنگو",
+      en: "Democratic Republic of the Congo",
+    },
+    number: {
+      fa: ["۰۰۲۴۳"],
+      en: ["00243"],
+    },
+    metadata: {
+      emoji: "🇨🇩",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "دانمارک",
+      en: "Denmark",
+    },
+    number: {
+      fa: ["۰۰۴۵"],
+      en: ["0045"],
+    },
+    metadata: {
+      emoji: "🇩🇰",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جیبوتی",
+      en: "Djibouti",
+    },
+    number: {
+      fa: ["۰۰۲۵۳"],
+      en: ["00253"],
+    },
+    metadata: {
+      emoji: "🇩🇯",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "دومینیکا",
+      en: "Dominica",
+    },
+    number: {
+      fa: ["۰۰۱۷۶۷"],
+      en: ["001767"],
+    },
+    metadata: {
+      emoji: "🇩🇲",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جمهوری دومینیکن",
+      en: "Dominican Republic",
+    },
+    number: {
+      fa: ["۰۰۱۸۰۹"],
+      en: ["001809"],
+    },
+    metadata: {
+      emoji: "🇩🇴",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "اکوادور",
+      en: "Ecuador",
+    },
+    number: {
+      fa: ["۰۰۵۹۳"],
+      en: ["00593"],
+    },
+    metadata: {
+      emoji: "🇪🇨",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "مصر",
+      en: "Egypt",
+    },
+    number: {
+      fa: ["۰۰۲۰"],
+      en: ["0020"],
+    },
+    metadata: {
+      emoji: "🇪🇬",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ال سالوادور",
+      en: "El Salvador",
+    },
+    number: {
+      fa: ["۰۰۵۰۳"],
+      en: ["00503"],
+    },
+    metadata: {
+      emoji: "🇸🇻",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "گینه استوایی",
+      en: "Equatorial Guinea",
+    },
+    number: {
+      fa: ["۰۰۲۴۰"],
+      en: ["00240"],
+    },
+    metadata: {
+      emoji: "🇬🇶",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "اریتره",
+      en: "Eritrea",
+    },
+    number: {
+      fa: ["۰۰۲۹۱"],
+      en: ["00291"],
+    },
+    metadata: {
+      emoji: "🇪🇷",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "استونی",
+      en: "Estonia",
+    },
+    number: {
+      fa: ["۰۰۳۷۲"],
+      en: ["00372"],
+    },
+    metadata: {
+      emoji: "🇪🇪",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "اتیوپی",
+      en: "Ethiopia",
+    },
+    number: {
+      fa: ["۰۰۲۵۱"],
+      en: ["00251"],
+    },
+    metadata: {
+      emoji: "🇪🇹",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جزایر فالکلند",
+      en: "Falkland Islands",
+    },
+    number: {
+      fa: ["۰۰۵۰۰"],
+      en: ["00500"],
+    },
+    metadata: {
+      emoji: "🇫🇰",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جزایر فارو",
+      en: "Faroe Islands",
+    },
+    number: {
+      fa: ["۰۰۲۹۸"],
+      en: ["00298"],
+    },
+    metadata: {
+      emoji: "🇫🇴",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "فیجی",
+      en: "Fiji",
+    },
+    number: {
+      fa: ["۰۰۶۷۹"],
+      en: ["00679"],
+    },
+    metadata: {
+      emoji: "🇫🇯",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "فنلاند",
+      en: "Finland",
+    },
+    number: {
+      fa: ["۰۰۳۵۸"],
+      en: ["00358"],
+    },
+    metadata: {
+      emoji: "🇫🇮",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "فرانسه",
+      en: "France",
+    },
+    number: {
+      fa: ["۰۰۳۳"],
+      en: ["0033"],
+    },
+    metadata: {
+      emoji: "🇫🇷",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "پلینزی فرانسه",
+      en: "French Polynesia",
+    },
+    number: {
+      fa: ["۰۰۶۸۹"],
+      en: ["00689"],
+    },
+    metadata: {
+      emoji: "🇵🇫",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "گابن",
+      en: "Gabon",
+    },
+    number: {
+      fa: ["۰۰۲۴۱"],
+      en: ["00241"],
+    },
+    metadata: {
+      emoji: "🇬🇦",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "گامبیا",
+      en: "Gambia",
+    },
+    number: {
+      fa: ["۰۰۲۲۰"],
+      en: ["00220"],
+    },
+    metadata: {
+      emoji: "🇬🇲",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "فلسطین (نوار غزه)",
+      en: "Gaza Strip",
+    },
+    number: {
+      fa: ["۰۰۹۷۰"],
+      en: ["00970"],
+    },
+    metadata: {
+      slang: "فلسطین",
+      emoji: "🇵🇸",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "گرجستان",
+      en: "Georgia",
+    },
+    number: {
+      fa: ["۰۰۹۹۵"],
+      en: ["00995"],
+    },
+    metadata: {
+      emoji: "🇬🇪",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "آلمان",
+      en: "Germany",
+    },
+    number: {
+      fa: ["۰۰۴۹"],
+      en: ["0049"],
+    },
+    metadata: {
+      emoji: "🇩🇪",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "غنا",
+      en: "Ghana",
+    },
+    number: {
+      fa: ["۰۰۲۳۳"],
+      en: ["00233"],
+    },
+    metadata: {
+      emoji: "🇬🇭",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جبل الطارق",
+      en: "Gibraltar",
+    },
+    number: {
+      fa: ["۰۰۳۵۰"],
+      en: ["00350"],
+    },
+    metadata: {
+      emoji: "🇬🇮",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "یونان",
+      en: "Greece",
+    },
+    number: {
+      fa: ["۰۰۳۰"],
+      en: ["0030"],
+    },
+    metadata: {
+      emoji: "🇬🇷",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "گرینلند",
+      en: "Greenland",
+    },
+    number: {
+      fa: ["۰۰۲۹۹"],
+      en: ["00299"],
+    },
+    metadata: {
+      emoji: "🇬🇱",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "گرانادا",
+      en: "Grenada",
+    },
+    number: {
+      fa: ["۰۰۱۴۷۳"],
+      en: ["001473"],
+    },
+    metadata: {
+      emoji: "🇬🇩",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "گوام",
+      en: "Guam",
+    },
+    number: {
+      fa: ["۰۰۱۶۷۱"],
+      en: ["001671"],
+    },
+    metadata: {
+      emoji: "🇬🇺",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "گواتمالا",
+      en: "Guatemala",
+    },
+    number: {
+      fa: ["۰۰۵۰۲"],
+      en: ["00502"],
+    },
+    metadata: {
+      emoji: "🇬🇹",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "گینه",
+      en: "Guinea",
+    },
+    number: {
+      fa: ["۰۰۲۲۴"],
+      en: ["00224"],
+    },
+    metadata: {
+      emoji: "🇬🇳",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "گینه بیسائو",
+      en: "Guinea-Bissau",
+    },
+    number: {
+      fa: ["۰۰۲۴۵"],
+      en: ["00245"],
+    },
+    metadata: {
+      emoji: "🇬🇼",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "گویان",
+      en: "Guyana",
+    },
+    number: {
+      fa: ["۰۰۵۹۲"],
+      en: ["00592"],
+    },
+    metadata: {
+      emoji: "🇬🇾",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "هائیتی",
+      en: "Haiti",
+    },
+    number: {
+      fa: ["۰۰۵۰۹"],
+      en: ["00509"],
+    },
+    metadata: {
+      emoji: "🇭🇹",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "واتیکان",
+      en: "Holy See (Vatican City)",
+    },
+    number: {
+      fa: ["۰۰۳۹"],
+      en: ["0039"],
+    },
+    metadata: {
+      emoji: "🇻🇦",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "هندوراس",
+      en: "Honduras",
+    },
+    number: {
+      fa: ["۰۰۵۰۴"],
+      en: ["00504"],
+    },
+    metadata: {
+      emoji: "🇭🇳",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "هنگ کنگ",
+      en: "Hong Kong",
+    },
+    number: {
+      fa: ["۰۰۸۵۲"],
+      en: ["00852"],
+    },
+    metadata: {
+      emoji: "🇭🇰",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "مجارستان",
+      en: "Hungary",
+    },
+    number: {
+      fa: ["۰۰۳۶"],
+      en: ["0036"],
+    },
+    metadata: {
+      emoji: "🇭🇺",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ایسلند",
+      en: "Iceland",
+    },
+    number: {
+      fa: ["۰۰۳۵۴"],
+      en: ["00354"],
+    },
+    metadata: {
+      emoji: "🇮🇸",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "هند",
+      en: "India",
+    },
+    number: {
+      fa: ["۰۰۹۱"],
+      en: ["0091"],
+    },
+    metadata: {
+      emoji: "🇮🇳",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "اندونزی",
+      en: "Indonesia",
+    },
+    number: {
+      fa: ["۰۰۶۲"],
+      en: ["0062"],
+    },
+    metadata: {
+      emoji: "🇮🇩",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ایران",
+      en: "Iran",
+    },
+    number: {
+      fa: ["۰۰۹۸"],
+      en: ["0098"],
+    },
+    metadata: {
+      emoji: "🇮🇷",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "عراق",
+      en: "Iraq",
+    },
+    number: {
+      fa: ["۰۰۹۶۴"],
+      en: ["00964"],
+    },
+    metadata: {
+      emoji: "🇮🇶",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ایرلند",
+      en: "Ireland",
+    },
+    number: {
+      fa: ["۰۰۳۵۳"],
+      en: ["00353"],
+    },
+    metadata: {
+      emoji: "🇮🇪",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جزیره من",
+      en: "Isle of Man",
+    },
+    number: {
+      fa: ["۰۰۴۴"],
+      en: ["0044"],
+    },
+    metadata: {
+      emoji: "🇮🇲",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "فلسطین اشغالی",
+      en: "Palestine",
+    },
+    number: {
+      fa: ["۰۰۹۷۲"],
+      en: ["00972"],
+    },
+    metadata: {
+      slang: "Israel, اسراییل, اسرائیل",
+      emoji: "🇵🇸",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ایتالیا",
+      en: "Italy",
+    },
+    number: {
+      fa: ["۰۰۳۹"],
+      en: ["0039"],
+    },
+    metadata: {
+      emoji: "🇮🇹",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ساحل عاج",
+      en: "Ivory Coast",
+    },
+    number: {
+      fa: ["۰۰۲۲۵"],
+      en: ["00225"],
+    },
+    metadata: {
+      emoji: "🇨🇮",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جاماییکا",
+      en: "Jamaica",
+    },
+    number: {
+      fa: ["۰۰۱۸۷۶"],
+      en: ["001876"],
+    },
+    metadata: {
+      emoji: "🇯🇲",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ژاپن",
+      en: "Japan",
+    },
+    number: {
+      fa: ["۰۰۸۱"],
+      en: ["0081"],
+    },
+    metadata: {
+      emoji: "🇯🇵",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "اردن",
+      en: "Jordan",
+    },
+    number: {
+      fa: ["۰۰۹۶۲"],
+      en: ["00962"],
+    },
+    metadata: {
+      emoji: "🇯🇴",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "قزاقستان",
+      en: "Kazakhstan",
+    },
+    number: {
+      fa: ["۰۰۷"],
+      en: ["007"],
+    },
+    metadata: {
+      emoji: "🇰🇿",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کنیا",
+      en: "Kenya",
+    },
+    number: {
+      fa: ["۰۰۲۵۴"],
+      en: ["00254"],
+    },
+    metadata: {
+      emoji: "🇰🇪",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کریباتی",
+      en: "Kiribati",
+    },
+    number: {
+      fa: ["۰۰۶۸۶"],
+      en: ["00686"],
+    },
+    metadata: {
+      emoji: "🇰🇮",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کوزوو",
+      en: "Kosovo",
+    },
+    number: {
+      fa: ["۰۰۳۸۱"],
+      en: ["00381"],
+    },
+    metadata: {
+      emoji: "🇽🇰",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کویت",
+      en: "Kuwait",
+    },
+    number: {
+      fa: ["۰۰۹۶۵"],
+      en: ["00965"],
+    },
+    metadata: {
+      emoji: "🇰🇼",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "قرقیزستان",
+      en: "Kyrgyzstan",
+    },
+    number: {
+      fa: ["۰۰۹۹۶"],
+      en: ["00996"],
+    },
+    metadata: {
+      emoji: "🇰🇬",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "لائوس",
+      en: "Laos",
+    },
+    number: {
+      fa: ["۰۰۸۵۶"],
+      en: ["00856"],
+    },
+    metadata: {
+      emoji: "🇱🇦",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "لتونی",
+      en: "Latvia",
+    },
+    number: {
+      fa: ["۰۰۳۷۱"],
+      en: ["00371"],
+    },
+    metadata: {
+      emoji: "🇱🇻",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "لبنان",
+      en: "Lebanon",
+    },
+    number: {
+      fa: ["۰۰۹۶۱"],
+      en: ["00961"],
+    },
+    metadata: {
+      emoji: "🇱🇧",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "لسوتو",
+      en: "Lesotho",
+    },
+    number: {
+      fa: ["۰۰۲۶۶"],
+      en: ["00266"],
+    },
+    metadata: {
+      emoji: "🇱🇸",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "لیبریا",
+      en: "Liberia",
+    },
+    number: {
+      fa: ["۰۰۲۳۱"],
+      en: ["00231"],
+    },
+    metadata: {
+      emoji: "🇱🇷",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "لیبی",
+      en: "Libya",
+    },
+    number: {
+      fa: ["۰۰۲۱۸"],
+      en: ["00218"],
+    },
+    metadata: {
+      emoji: "🇱🇾",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "لیختنشتاین",
+      en: "Liechtenstein",
+    },
+    number: {
+      fa: ["۰۰۴۲۳"],
+      en: ["00423"],
+    },
+    metadata: {
+      emoji: "🇱🇮",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "لیتوانی",
+      en: "Lithuania",
+    },
+    number: {
+      fa: ["۰۰۳۷۰"],
+      en: ["00370"],
+    },
+    metadata: {
+      emoji: "🇱🇹",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "لوگزامبورگ",
+      en: "Luxembourg",
+    },
+    number: {
+      fa: ["۰۰۳۵۲"],
+      en: ["00352"],
+    },
+    metadata: {
+      emoji: "🇱🇺",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ماکلائو",
+      en: "Macau",
+    },
+    number: {
+      fa: ["۰۰۸۵۳"],
+      en: ["00853"],
+    },
+    metadata: {
+      emoji: "🇲🇴",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "مقدونیه",
+      en: "Macedonia",
+    },
+    number: {
+      fa: ["۰۰۳۸۹"],
+      en: ["00389"],
+    },
+    metadata: {
+      emoji: "🇲🇰",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ماداگاسکار",
+      en: "Madagascar",
+    },
+    number: {
+      fa: ["۰۰۲۶۱"],
+      en: ["00261"],
+    },
+    metadata: {
+      emoji: "🇲🇬",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "مالاوی",
+      en: "Malawi",
+    },
+    number: {
+      fa: ["۰۰۲۶۵"],
+      en: ["00265"],
+    },
+    metadata: {
+      emoji: "🇲🇼",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "مالزی",
+      en: "Malaysia",
+    },
+    number: {
+      fa: ["۰۰۶۰"],
+      en: ["0060"],
+    },
+    metadata: {
+      emoji: "🇲🇾",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "مالدیو",
+      en: "Maldives",
+    },
+    number: {
+      fa: ["۰۰۹۶۰"],
+      en: ["00960"],
+    },
+    metadata: {
+      emoji: "🇲🇻",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "مالی",
+      en: "Mali",
+    },
+    number: {
+      fa: ["۰۰۲۲۳"],
+      en: ["00223"],
+    },
+    metadata: {
+      emoji: "🇲🇱",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "مالت",
+      en: "Malta",
+    },
+    number: {
+      fa: ["۰۰۳۵۶"],
+      en: ["00356"],
+    },
+    metadata: {
+      emoji: "🇲🇹",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جزایر مارشال",
+      en: "Marshall Islands",
+    },
+    number: {
+      fa: ["۰۰۶۹۲"],
+      en: ["00692"],
+    },
+    metadata: {
+      emoji: "🇲🇭",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "موریتانی",
+      en: "Mauritania",
+    },
+    number: {
+      fa: ["۰۰۲۲۲"],
+      en: ["00222"],
+    },
+    metadata: {
+      emoji: "🇲🇷",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "موریس",
+      en: "Mauritius",
+    },
+    number: {
+      fa: ["۰۰۲۳۰"],
+      en: ["00230"],
+    },
+    metadata: {
+      emoji: "🇲🇺",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "مایوت",
+      en: "Mayotte",
+    },
+    number: {
+      fa: ["۰۰۲۶۲"],
+      en: ["00262"],
+    },
+    metadata: {
+      emoji: "🇾🇹",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "مکزیک",
+      en: "Mexico",
+    },
+    number: {
+      fa: ["۰۰۵۲"],
+      en: ["0052"],
+    },
+    metadata: {
+      emoji: "🇧🇸",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "میکرونزی",
+      en: "Micronesia",
+    },
+    number: {
+      fa: ["۰۰۶۹۱"],
+      en: ["00691"],
+    },
+    metadata: {
+      emoji: "🇫🇲",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "مولداوی",
+      en: "Moldova",
+    },
+    number: {
+      fa: ["۰۰۳۷۳"],
+      en: ["00373"],
+    },
+    metadata: {
+      emoji: "🇲🇩",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "موناکو",
+      en: "Monaco",
+    },
+    number: {
+      fa: ["۰۰۳۷۷"],
+      en: ["00377"],
+    },
+    metadata: {
+      emoji: "🇲🇨",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "مغولستان",
+      en: "Mongolia",
+    },
+    number: {
+      fa: ["۰۰۹۷۶"],
+      en: ["00976"],
+    },
+    metadata: {
+      emoji: "🇲🇳",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "مونتنگرو",
+      en: "Montenegro",
+    },
+    number: {
+      fa: ["۰۰۳۸۲"],
+      en: ["00382"],
+    },
+    metadata: {
+      emoji: "🇲🇪",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "مونتسرات",
+      en: "Montserrat",
+    },
+    number: {
+      fa: ["۰۰۱۶۶۴"],
+      en: ["001664"],
+    },
+    metadata: {
+      emoji: "🇲🇸",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "مراکش",
+      en: "Morocco",
+    },
+    number: {
+      fa: ["۰۰۲۱۲"],
+      en: ["00212"],
+    },
+    metadata: {
+      emoji: "🇲🇦",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "موزامبیک",
+      en: "Mozambique",
+    },
+    number: {
+      fa: ["۰۰۲۵۸"],
+      en: ["00258"],
+    },
+    metadata: {
+      emoji: "🇲🇿",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "نامیبیا",
+      en: "Namibia",
+    },
+    number: {
+      fa: ["۰۰۲۶۴"],
+      en: ["00264"],
+    },
+    metadata: {
+      emoji: "🇳🇦",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "نائورو",
+      en: "Nauru",
+    },
+    number: {
+      fa: ["۰۰۶۷۴"],
+      en: ["00674"],
+    },
+    metadata: {
+      emoji: "🇳🇷",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "نپال",
+      en: "Nepal",
+    },
+    number: {
+      fa: ["۰۰۹۷۷"],
+      en: ["00977"],
+    },
+    metadata: {
+      emoji: "🇳🇵",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "هلند",
+      en: "Netherlands",
+    },
+    number: {
+      fa: ["۰۰۳۱"],
+      en: ["0031"],
+    },
+    metadata: {
+      emoji: "🇳🇱",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "آنتیل هلند",
+      en: "Netherlands Antilles",
+    },
+    number: {
+      fa: ["۰۰۵۹۹"],
+      en: ["00599"],
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کالدونیای جدید",
+      en: "New Caledonia",
+    },
+    number: {
+      fa: ["۰۰۶۸۷"],
+      en: ["00687"],
+    },
+    metadata: {
+      emoji: "🇳🇨",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "نیوزلند",
+      en: "New Zealand",
+    },
+    number: {
+      fa: ["۰۰۶۴"],
+      en: ["0064"],
+    },
+    metadata: {
+      emoji: "🇳🇿",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "نیکاراگوئه",
+      en: "Nicaragua",
+    },
+    number: {
+      fa: ["۰۰۵۰۵"],
+      en: ["00505"],
+    },
+    metadata: {
+      emoji: "🇳🇮",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "نیجر",
+      en: "Niger",
+    },
+    number: {
+      fa: ["۰۰۲۲۷"],
+      en: ["00227"],
+    },
+    metadata: {
+      emoji: "🇳🇪",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "نیجریه",
+      en: "Nigeria",
+    },
+    number: {
+      fa: ["۰۰۲۳۴"],
+      en: ["00234"],
+    },
+    metadata: {
+      emoji: "🇳🇬",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "نیوئه",
+      en: "Niue",
+    },
+    number: {
+      fa: ["۰۰۶۸۳"],
+      en: ["00683"],
+    },
+    metadata: {
+      emoji: "🇳🇺",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جزیره نورفولک",
+      en: "Norfolk Island",
+    },
+    number: {
+      fa: ["۰۰۶۷۲"],
+      en: ["00672"],
+    },
+    metadata: {
+      emoji: "🇳🇫",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کره شمالی",
+      en: "North Korea",
+    },
+    number: {
+      fa: ["۰۰۸۵۰"],
+      en: ["00850"],
+    },
+    metadata: {
+      emoji: "🇰🇵",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جزایر ماریانای شمالی",
+      en: "Northern Mariana Islands",
+    },
+    number: {
+      fa: ["۰۰۱۶۷۰"],
+      en: ["001670"],
+    },
+    metadata: {
+      emoji: "🇲🇵",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "نروژ",
+      en: "Norway",
+    },
+    number: {
+      fa: ["۰۰۴۷"],
+      en: ["0047"],
+    },
+    metadata: {
+      emoji: "🇳🇴",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "عمان",
+      en: "Oman",
+    },
+    number: {
+      fa: ["۰۰۹۶۸"],
+      en: ["00968"],
+    },
+    metadata: {
+      emoji: "🇴🇲",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "پاکستان",
+      en: "Pakistan",
+    },
+    number: {
+      fa: ["۰۰۹۲"],
+      en: ["0092"],
+    },
+    metadata: {
+      emoji: "🇵🇰",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "پالائو",
+      en: "Palau",
+    },
+    number: {
+      fa: ["۰۰۶۸۰"],
+      en: ["00680"],
+    },
+    metadata: {
+      emoji: "🇵🇼",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "پاناما",
+      en: "Panama",
+    },
+    number: {
+      fa: ["۰۰۵۰۷"],
+      en: ["00507"],
+    },
+    metadata: {
+      emoji: "🇵🇦",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "پاپوآ گینه نو",
+      en: "Papua New Guinea",
+    },
+    number: {
+      fa: ["۰۰۶۷۵"],
+      en: ["00675"],
+    },
+    metadata: {
+      emoji: "🇵🇬",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "پاراگوئه",
+      en: "Paraguay",
+    },
+    number: {
+      fa: ["۰۰۵۹۵"],
+      en: ["00595"],
+    },
+    metadata: {
+      emoji: "🇵🇾",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "پرو",
+      en: "Peru",
+    },
+    number: {
+      fa: ["۰۰۵۱"],
+      en: ["0051"],
+    },
+    metadata: {
+      emoji: "🇵🇪",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "فیلیپین",
+      en: "Philippines",
+    },
+    number: {
+      fa: ["۰۰۶۳"],
+      en: ["0063"],
+    },
+    metadata: {
+      emoji: "🇵🇭",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جزایر پیت کرن",
+      en: "Pitcairn Islands",
+    },
+    number: {
+      fa: ["۰۰۸۷۰"],
+      en: ["00870"],
+    },
+    metadata: {
+      emoji: "🇵🇳",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "لهستان",
+      en: "Poland",
+    },
+    number: {
+      fa: ["۰۰۴۸"],
+      en: ["0048"],
+    },
+    metadata: {
+      emoji: "🇵🇱",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "پرتقال",
+      en: "Portugal",
+    },
+    number: {
+      fa: ["۰۰۳۵۱"],
+      en: ["00351"],
+    },
+    metadata: {
+      emoji: "🇵🇹",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "پورتوریکو",
+      en: "Puerto Rico",
+    },
+    number: {
+      fa: ["۰۰۱"],
+      en: ["001"],
+    },
+    metadata: {
+      emoji: "🇵🇷",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "قطر",
+      en: "Qatar",
+    },
+    number: {
+      fa: ["۰۰۹۷۴"],
+      en: ["00974"],
+    },
+    metadata: {
+      emoji: "🇶🇦",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جمهوری کنگو",
+      en: "Republic of the Congo",
+    },
+    number: {
+      fa: ["۰۰۲۴۲"],
+      en: ["00242"],
+    },
+    metadata: {
+      emoji: "🇨🇬",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "رومانی",
+      en: "Romania",
+    },
+    number: {
+      fa: ["۰۰۴۰"],
+      en: ["0040"],
+    },
+    metadata: {
+      emoji: "🇷🇴",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "روسیه",
+      en: "Russia",
+    },
+    number: {
+      fa: ["۰۰۷"],
+      en: ["007"],
+    },
+    metadata: {
+      emoji: "🇷🇺",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "رواندا",
+      en: "Rwanda",
+    },
+    number: {
+      fa: ["۰۰۲۵۰"],
+      en: ["00250"],
+    },
+    metadata: {
+      emoji: "🇷🇼",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سنت بارتلمی",
+      en: "Saint Barthelemy",
+    },
+    number: {
+      fa: ["۰۰۵۹۰"],
+      en: ["00590"],
+    },
+    metadata: {
+      emoji: "🇧🇱",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سنت هلن",
+      en: "Saint Helena",
+    },
+    number: {
+      fa: ["۰۰۲۹۰"],
+      en: ["00290"],
+    },
+    metadata: {
+      emoji: "🇸🇭",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سنت کیتس و نویس",
+      en: "Saint Kitts and Nevis",
+    },
+    number: {
+      fa: ["۰۰۱۸۶۹"],
+      en: ["001869"],
+    },
+    metadata: {
+      emoji: "🇰🇳",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سنت لوسیا",
+      en: "Saint Lucia",
+    },
+    number: {
+      fa: ["۰۰۱۷۵۸"],
+      en: ["01758"],
+    },
+    metadata: {
+      emoji: "🇱🇨",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سنت مارتین",
+      en: "Saint Martin",
+    },
+    number: {
+      fa: ["۰۰۱۵۹۹"],
+      en: ["001599"],
+    },
+    metadata: {
+      emoji: "🇸🇽",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سنت پیر و میکلون",
+      en: "Saint Pierre and Miquelon",
+    },
+    number: {
+      fa: ["۰۰۵۰۸"],
+      en: ["00508"],
+    },
+    metadata: {
+      emoji: "🇵🇲",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سنت وینسنت و گرنادین",
+      en: "Saint Vincent and the Grenadines",
+    },
+    number: {
+      fa: ["۰۰۱۷۸۴"],
+      en: ["001784"],
+    },
+    metadata: {
+      emoji: "🇻🇨",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ساموآ",
+      en: "Samoa",
+    },
+    number: {
+      fa: ["۰۰۶۸۵"],
+      en: ["00685"],
+    },
+    metadata: {
+      emoji: "🇼🇸",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سن مارین",
+      en: "San Marino",
+    },
+    number: {
+      fa: ["۰۰۳۷۸"],
+      en: ["00378"],
+    },
+    metadata: {
+      emoji: "🇸🇲",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سائوتومه و پرنسیپ",
+      en: "Sao Tome and Principe",
+    },
+    number: {
+      fa: ["۰۰۲۳۹"],
+      en: ["00239"],
+    },
+    metadata: {
+      emoji: "🇸🇹",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "عربستان",
+      en: "Saudi Arabia",
+    },
+    number: {
+      fa: ["۰۰۹۶۶"],
+      en: ["00966"],
+    },
+    metadata: {
+      emoji: "🇸🇦",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سنگال",
+      en: "Senegal",
+    },
+    number: {
+      fa: ["۰۰۲۲۱"],
+      en: ["00221"],
+    },
+    metadata: {
+      emoji: "🇸🇳",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "صربستان",
+      en: "Serbia",
+    },
+    number: {
+      fa: ["۰۰۳۸۱"],
+      en: ["00381"],
+    },
+    metadata: {
+      emoji: "🇷🇸",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سیشل",
+      en: "Seychelles",
+    },
+    number: {
+      fa: ["۰۰۲۴۸"],
+      en: ["00248"],
+    },
+    metadata: {
+      emoji: "🇸🇨",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سیرالئون",
+      en: "Sierra Leone",
+    },
+    number: {
+      fa: ["۰۰۲۳۲"],
+      en: ["00232"],
+    },
+    metadata: {
+      emoji: "🇸🇱",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سنگاپور",
+      en: "Singapore",
+    },
+    number: {
+      fa: ["۰۰۶۵"],
+      en: ["0065"],
+    },
+    metadata: {
+      emoji: "🇸🇬",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "اسلواکی",
+      en: "Slovakia",
+    },
+    number: {
+      fa: ["۰۰۴۲۱"],
+      en: ["00421"],
+    },
+    metadata: {
+      emoji: "🇸🇰",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "اسلونی",
+      en: "Slovenia",
+    },
+    number: {
+      fa: ["۰۰۳۸۶"],
+      en: ["00386"],
+    },
+    metadata: {
+      emoji: "🇸🇮",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جزایر سلیمان",
+      en: "Solomon Islands",
+    },
+    number: {
+      fa: ["۰۰۶۷۷"],
+      en: ["00677"],
+    },
+    metadata: {
+      emoji: "🇸🇧",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سومالی",
+      en: "Somalia",
+    },
+    number: {
+      fa: ["۰۰۲۵۲"],
+      en: ["00252"],
+    },
+    metadata: {
+      emoji: "🇸🇴",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "آفریقای جنوبی",
+      en: "South Africa",
+    },
+    number: {
+      fa: ["۰۰۲۷"],
+      en: ["0027"],
+    },
+    metadata: {
+      emoji: "🇿🇦",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "کره جنوبی",
+      en: "South Korea",
+    },
+    number: {
+      fa: ["۰۰۸۲"],
+      en: ["0082"],
+    },
+    metadata: {
+      emoji: "🇰🇷",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "اسپانیا",
+      en: "Spain",
+    },
+    number: {
+      fa: ["۰۰۳۴"],
+      en: ["0034"],
+    },
+    metadata: {
+      emoji: "🇪🇸",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سریلانکا",
+      en: "Sri Lanka",
+    },
+    number: {
+      fa: ["۰۰۹۴"],
+      en: ["0094"],
+    },
+    metadata: {
+      emoji: "🇱🇰",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سودان",
+      en: "Sudan",
+    },
+    number: {
+      fa: ["۰۰۲۴۹"],
+      en: ["00249"],
+    },
+    metadata: {
+      emoji: "🇸🇩",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سورینام",
+      en: "Suriname",
+    },
+    number: {
+      fa: ["۰۰۵۹۷"],
+      en: ["00597"],
+    },
+    metadata: {
+      emoji: "🇸🇷",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سوازیلند",
+      en: "Swaziland",
+    },
+    number: {
+      fa: ["۰۰۲۶۸"],
+      en: ["00268"],
+    },
+    metadata: {
+      emoji: "🇸🇿",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سوئد",
+      en: "Sweden",
+    },
+    number: {
+      fa: ["۰۰۴۶"],
+      en: ["0046"],
+    },
+    metadata: {
+      emoji: "🇸🇪",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سوئیس",
+      en: "Switzerland",
+    },
+    number: {
+      fa: ["۰۰۴۱"],
+      en: ["0041"],
+    },
+    metadata: {
+      emoji: "🇨🇭",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "سوریه",
+      en: "Syria",
+    },
+    number: {
+      fa: ["۰۰۹۶۳"],
+      en: ["00963"],
+    },
+    metadata: {
+      emoji: "🇸🇾",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "تایوان",
+      en: "Taiwan",
+    },
+    number: {
+      fa: ["۰۰۸۸۶"],
+      en: ["00886"],
+    },
+    metadata: {
+      emoji: "🇹🇼",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "تاجیکستان",
+      en: "Tajikistan",
+    },
+    number: {
+      fa: ["۰۰۹۹۲"],
+      en: ["00992"],
+    },
+    metadata: {
+      emoji: "🇹🇯",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "تانزانیا",
+      en: "Tanzania",
+    },
+    number: {
+      fa: ["۰۰۲۵۵"],
+      en: ["00255"],
+    },
+    metadata: {
+      emoji: "🇹🇿",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "تایلند",
+      en: "Thailand",
+    },
+    number: {
+      fa: ["۰۰۶۶"],
+      en: ["0066"],
+    },
+    metadata: {
+      emoji: "🇹🇭",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "تیمور شرق",
+      en: "Timor-Leste",
+    },
+    number: {
+      fa: ["۰۰۶۷۰"],
+      en: ["00670"],
+    },
+    metadata: {
+      emoji: "🇹🇱",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "توگو",
+      en: "Togo",
+    },
+    number: {
+      fa: ["۰۰۲۲۸"],
+      en: ["00228"],
+    },
+    metadata: {
+      emoji: "🇹🇬",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "توکلائو",
+      en: "Tokelau",
+    },
+    number: {
+      fa: ["۰۰۶۹۰"],
+      en: ["00690"],
+    },
+    metadata: {
+      emoji: "🇹🇰",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "تونگا",
+      en: "Tonga",
+    },
+    number: {
+      fa: ["۰۰۶۷۶"],
+      en: ["00676"],
+    },
+    metadata: {
+      emoji: "🇹🇴",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ترینیداد و توباگو",
+      en: "Trinidad and Tobago",
+    },
+    number: {
+      fa: ["۰۰۱۸۶۸"],
+      en: ["001868"],
+    },
+    metadata: {
+      emoji: "🇹🇹",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "تونس",
+      en: "Tunisia",
+    },
+    number: {
+      fa: ["۰۰۲۱۶"],
+      en: ["00216"],
+    },
+    metadata: {
+      emoji: "🇹🇳",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ترکیه",
+      en: "Turkey",
+    },
+    number: {
+      fa: ["۰۰۹۰"],
+      en: ["0090"],
+    },
+    metadata: {
+      emoji: "🇹🇷",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ترکمنستان",
+      en: "Turkmenistan",
+    },
+    number: {
+      fa: ["۰۰۹۹۳"],
+      en: ["00993"],
+    },
+    metadata: {
+      emoji: "🇹🇲",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جزایر ترکس و کیاکوس",
+      en: "Turks and Caicos Islands",
+    },
+    number: {
+      fa: ["۰۰۱۶۴۹"],
+      en: ["001649"],
+    },
+    metadata: {
+      emoji: "🇹🇨",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "تووالو",
+      en: "Tuvalu",
+    },
+    number: {
+      fa: ["۰۰۶۸۸"],
+      en: ["00688"],
+    },
+    metadata: {
+      emoji: "🇹🇻",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "اوگاندا",
+      en: "Uganda",
+    },
+    number: {
+      fa: ["۰۰۲۵۶"],
+      en: ["00256"],
+    },
+    metadata: {
+      emoji: "🇺🇬",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "اوکراین",
+      en: "Ukraine",
+    },
+    number: {
+      fa: ["۰۰۳۸۰"],
+      en: ["00380"],
+    },
+    metadata: {
+      emoji: "🇺🇦",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "امارات متحده عربی",
+      en: "United Arab Emirates",
+    },
+    number: {
+      fa: ["۰۰۹۷۱"],
+      en: ["00971"],
+    },
+    metadata: {
+      slang: "dubai, دوبی, دبی",
+      emoji: "🇦🇪",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "انگلستان",
+      en: "United Kingdom",
+    },
+    number: {
+      fa: ["۰۰۴۴"],
+      en: ["0044"],
+    },
+    metadata: {
+      slang: "uk, انگلیس",
+      emoji: "🇬🇧",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ایالات متحده آمریکا",
+      en: "United States of America",
+    },
+    number: {
+      fa: ["۰۰۱"],
+      en: ["001"],
+    },
+    metadata: {
+      slang: "us , usa, امریکا",
+      emoji: "🇺🇸",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "اروگوئه",
+      en: "Uruguay",
+    },
+    number: {
+      fa: ["۰۰۵۹۸"],
+      en: ["00598"],
+    },
+    metadata: {
+      emoji: "🇺🇾",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "جزایر ویرجین ایالات متحده",
+      en: "U.S. Virgin Islands",
+    },
+    number: {
+      fa: ["۰۰۱۳۴۰"],
+      en: ["001340"],
+    },
+    metadata: {
+      emoji: "🇻🇮",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ازبکستان",
+      en: "Uzbekistan",
+    },
+    number: {
+      fa: ["۰۰۹۹۸"],
+      en: ["00998"],
+    },
+    metadata: {
+      emoji: "🇺🇿",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "وانواتو",
+      en: "Vanuatu",
+    },
+    number: {
+      fa: ["۰۰۶۷۸"],
+      en: ["00678"],
+    },
+    metadata: {
+      emoji: "🇻🇺",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ونزوئلا",
+      en: "Venezuela",
+    },
+    number: {
+      fa: ["۰۰۵۸"],
+      en: ["0058"],
+    },
+    metadata: {
+      emoji: "🇻🇪",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "ویتنام",
+      en: "Vietnam",
+    },
+    number: {
+      fa: ["۰۰۸۴"],
+      en: ["0084"],
+    },
+    metadata: {
+      emoji: "🇻🇳",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "والیس و فوتونا",
+      en: "Wallis and Futuna",
+    },
+    number: {
+      fa: ["۰۰۶۸۱"],
+      en: ["00681"],
+    },
+    metadata: {
+      emoji: "🇼🇫",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "یمن",
+      en: "Yemen",
+    },
+    number: {
+      fa: ["۰۰۹۶۷"],
+      en: ["00967"],
+    },
+    metadata: {
+      emoji: "🇾🇪",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "زامبیا",
+      en: "Zambia",
+    },
+    number: {
+      fa: ["۰۰۲۶۰"],
+      en: ["00260"],
+    },
+    metadata: {
+      emoji: "🇿🇲",
+    },
+    type: "Countries",
+  },
+  {
+    name: {
+      fa: "زیمباوه",
+      en: "Zimbabwe",
+    },
+    number: {
+      fa: ["۰۰۲۶۳"],
+      en: ["00263"],
+    },
+    metadata: {
+      emoji: "🇿🇼",
+    },
     type: "Countries",
   },
 ];

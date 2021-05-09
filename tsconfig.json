@@ -9,6 +9,7 @@
       "@pages/*": ["./pages/*"],
       "@content/*": ["./content/*"],
       "@dataTypes/*": ["./types/*"],
+      "@enums/*": ["./enums/*"],
     },
     "lib": [
       "dom",

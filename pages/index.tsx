@@ -3,12 +3,18 @@ import HomePage from "@components/home-page/home-page";
 import { SearchCodes } from "@content/code-helpers";
 import { GetStaticProps } from "next";
 import { PhoneCode } from "@dataTypes/phone-code";
-import SearchCategoryType from "@dataTypes/search-category-type";
+import SearchCategoryType from "@enums/search-category-type";
+import { SearchCategory } from "@dataTypes/search-category";
 
-export default function Home(props: { codes: PhoneCode[] }) {
+interface HomeProps {
+  codes: PhoneCode[];
+  category: SearchCategory;
+}
+
+export default function Home({ codes, category }: HomeProps) {
   return (
     <MainLayout>
-      <HomePage codes={props.codes} />
+      <HomePage codes={codes} initialCategory={category} />
     </MainLayout>
   );
 }
@@ -16,7 +22,8 @@ export default function Home(props: { codes: PhoneCode[] }) {
 export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
-      codes: SearchCodes("", SearchCategoryType.All),
+      codes: SearchCodes("", SearchCategoryType.All).slice(0, 25),
+      initialCategory: SearchCategoryType.All,
     },
   };
 };

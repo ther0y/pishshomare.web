@@ -6,16 +6,18 @@ import ActivableMenuItem from "@components/drop-down/activable-menu-item";
 import DropDownItem from "@dataTypes/drop-down-item";
 
 import { ChevronDownIcon } from "@heroicons/react/solid";
+import { SearchCategory } from "@dataTypes/search-category";
 
 interface DropDownProps {
   items: DropDownItem[];
+  initialCategory: SearchCategory;
   onChange: (item: DropDownItem) => void;
 }
 
-const DropDown: FC<DropDownProps> = ({ items, onChange }) => {
-  const [selected, setSelected] = useState(items[0]);
+const DropDown: FC<DropDownProps> = ({ items, onChange, initialCategory }) => {
+  const [selected, setSelected] = useState(initialCategory);
 
-  const handleItemSelect = (item: DropDownItem) => {
+  const handleItemSelect = (item: SearchCategory) => {
     setSelected(item);
     onChange(item);
   };

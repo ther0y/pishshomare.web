@@ -1,12 +1,12 @@
 import { FC } from "react";
 import { Menu } from "@headlessui/react";
-import DropDownItem from "@dataTypes/drop-down-item";
+import { SearchCategory } from "@dataTypes/search-category";
 
 interface ActivableMenuItemProps {
-  item: DropDownItem;
+  item: SearchCategory;
   disabled?: boolean;
   selected?: boolean;
-  onSelect?: (item: DropDownItem) => void;
+  onSelect?: (item: SearchCategory) => void;
 }
 
 const ActivableMenuItem: FC<ActivableMenuItemProps> = ({

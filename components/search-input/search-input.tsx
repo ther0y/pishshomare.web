@@ -1,22 +1,30 @@
 import React, { FC, useEffect, useState } from "react";
 import DropDown from "@components/drop-down/drop-down";
 import { SearchCategories } from "@components/search-input/search-categories";
-import { PhoneCode } from "@dataTypes/phone-code";
+import { Code, PhoneCode } from "@dataTypes/phone-code";
 import { SearchCodes } from "@content/code-helpers";
+import { SearchCategory } from "@dataTypes/search-category";
+import SearchCategoryType from "@enums/search-category-type";
 
 interface SearchInputProps {
   placeholder?: string;
   fill?: boolean;
-  onResult: (codes: PhoneCode[]) => void;
+  initialCategory: SearchCategory;
+  onResult: (codes: (PhoneCode | Code)[]) => void;
 }
 
 const SearchInput: FC<SearchInputProps> = ({
   placeholder = "جستجو با نام یا شماره",
   fill = true,
+  initialCategory,
   onResult,
 }) => {
+  initialCategory =
+    initialCategory ||
+    SearchCategories.find((sc) => sc.value === SearchCategoryType.All);
+
   const [query, setQuery] = useState("");
-  const [category, setCategory] = useState(SearchCategories[0]);
+  const [category, setCategory] = useState(initialCategory);
 
   useEffect(() => {
     const result = SearchCodes(query, category.value);
@@ -37,7 +45,11 @@ const SearchInput: FC<SearchInputProps> = ({
         onChange={(e) => setQuery(e.target.value)}
       />
       <div className="">
-        <DropDown onChange={setCategory} items={SearchCategories} />
+        <DropDown
+          onChange={setCategory}
+          items={SearchCategories}
+          initialCategory={initialCategory}
+        />
       </div>
     </div>
   );
