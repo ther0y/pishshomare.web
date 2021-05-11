@@ -12,8 +12,6 @@ export const SearchCountries = (query: string, category: string): Code[] => {
 
   const q = query.replace("+", "");
 
-  console.log(q);
-
   return CountryCodes.filter(
     (c) =>
       c.name.fa.includes(query) ||

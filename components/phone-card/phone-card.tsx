@@ -1,9 +1,14 @@
 import { FC } from "react";
 import { Code, PhoneCode } from "@dataTypes/phone-code";
-import GeneralCard from "@components/phone-card/general-card";
-import CountryCard from "@components/phone-card/country-card";
 import SearchCategoryType from "@enums/search-category-type";
-import OperatorCard from "@components/phone-card/operator-card";
+import GeneralCard from "@components/phone-card/general-card";
+import BaseCard from "@components/phone-card/base-card";
+import {
+  CodeToCardProps,
+  CodeToCardPropsWithMultipleNumbers,
+  CodeToCardPropsWithSubtitle,
+} from "@content/code-helpers/utils";
+import MultiNumberCard from "@components/phone-card/multi-number-card";
 
 const PhoneCard: FC<{ data: PhoneCode | Code }> = ({ data }) => {
   if (
@@ -11,9 +16,13 @@ const PhoneCard: FC<{ data: PhoneCode | Code }> = ({ data }) => {
     data.type === SearchCategoryType.States ||
     data.type === SearchCategoryType.Emergencies
   ) {
-    return <CountryCard data={data as Code} />;
+    return <BaseCard {...CodeToCardProps(data as Code)} />;
   } else if (data.type === SearchCategoryType.Operators) {
-    return <OperatorCard data={data as Code} />;
+    return <BaseCard {...CodeToCardPropsWithSubtitle(data as Code)} />;
+  } else if (data.type === SearchCategoryType.Embassies) {
+    return (
+      <MultiNumberCard {...CodeToCardPropsWithMultipleNumbers(data as Code)} />
+    );
   } else {
     return <GeneralCard data={data as PhoneCode} />;
   }

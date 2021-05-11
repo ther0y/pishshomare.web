@@ -33,12 +33,6 @@ export const SearchCategories: SearchCategory[] = [
     slug: "کشور_ها",
   },
   {
-    title: "مناطق تهران",
-    value: SearchCategoryType.Tehran,
-    classes: "bg-gray-600",
-    slug: "مناطق-تهران",
-  },
-  {
     title: "سفارتخانه ها",
     value: SearchCategoryType.Embassies,
     classes: "bg-purple-400",
@@ -49,5 +43,11 @@ export const SearchCategories: SearchCategory[] = [
     value: SearchCategoryType.Plates,
     classes: "bg-pink-400",
     slug: "پلاک-خودرو",
+  },
+  {
+    title: "مناطق تهران",
+    value: SearchCategoryType.Tehran,
+    classes: "bg-gray-600",
+    slug: "مناطق-تهران",
   },
 ];

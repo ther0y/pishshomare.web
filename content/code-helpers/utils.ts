@@ -1,4 +1,6 @@
 import { Code } from "@dataTypes/phone-code";
+import { BaseCardProps } from "@components/phone-card/base-card";
+import { MultiNumberCardProps } from "@components/phone-card/multi-number-card";
 
 export const SortCodesByName = (query: string, normalizedQuery?: string) => {
   return (a: Code, b: Code) => {
@@ -24,3 +26,28 @@ export const SortCodesByName = (query: string, normalizedQuery?: string) => {
     return a.name.fa.localeCompare(b.name.fa);
   };
 };
+
+export const CodeToCardProps = (data: Code): BaseCardProps => ({
+  title: data.name.fa,
+  subtitle: data.name.en,
+  type: data.type,
+  number: data.number.fa[0],
+  emoji: data.metadata?.emoji,
+});
+
+export const CodeToCardPropsWithSubtitle = (data: Code): BaseCardProps => ({
+  title: data.name.fa,
+  subtitle: data.metadata?.areas?.join(" , ") || data.name.en,
+  type: data.type,
+  number: data.number.fa[0],
+});
+
+export const CodeToCardPropsWithMultipleNumbers = (
+  data: Code
+): MultiNumberCardProps => ({
+  title: data.name.fa,
+  subtitle: data.name.en,
+  type: data.type,
+  numbers: data.number.fa,
+  emoji: data.metadata?.emoji,
+});

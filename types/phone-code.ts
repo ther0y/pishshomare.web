@@ -21,6 +21,10 @@ export interface Code {
     flag?: string;
     emoji?: string;
     areas?: string[];
+    address?: string;
+    email?: string;
+    website?: string;
+    description?: string;
   };
   type: string;
 }

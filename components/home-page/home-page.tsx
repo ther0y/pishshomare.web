@@ -49,7 +49,8 @@ const HomePage: FC<HomePageProps> = ({
             code.type === SearchCategoryType.Countries ||
             code.type === SearchCategoryType.States ||
             code.type === SearchCategoryType.Operators ||
-            code.type === SearchCategoryType.Emergencies
+            code.type === SearchCategoryType.Emergencies ||
+            code.type === SearchCategoryType.Embassies
               ? (code as Code).name.en + (code as Code).number.en[0]
               : code.name;
 
