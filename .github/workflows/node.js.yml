@@ -12,20 +12,22 @@ jobs:
         uses: actions/checkout@v2
       - name: Setup Node.js
         uses: actions/setup-node@v2
-      - name: Setup cache
-        uses: actions/cache@v2
+      - name: Setup Python 3.7
+        uses: actions/setup-python@v2
         with:
-          path: ${{ github.workspace }}/.next/cache
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}
-      - name: update-liara
+          python-version: 3.7
+      - name: Setup Fandogh CLI
         run: |
-          echo Installing Liara CLI
-          sudo npm i -g @liara/cli
+          pip install fandogh-cli
       - name: deploy
         env:
-          LIARA_TOKEN: ${{ secrets.LIARA_API_TOKEN }}
-          LIARA_REGION: ${{ secrets.LIARA_REGION }}
-          LIARA_APP: ${{ secrets.LIARA_APP }}
+          FANDOGH_SERVICE_NAME: ${{ secrets.FANDOGH_SERVICE_NAME }}
+          FANDOGH_USERNAME: ${{ secrets.FANDOGH_USERNAME }}
+          FANDOGH_PASSWORD: ${{ secrets.FANDOGH_PASSWORD }}
+          APP_DOMAIN: ${{ secrets.APP_DOMAIN }}
         run: |
-          liara deploy --api-token="$LIARA_TOKEN" --region="$LIARA_REGION" --app="$LIARA_APP" --platform="node" --port=3000 --detach
+          yes | fandogh login --username="$FANDOGH_USERNAME" --password="$FANDOGH_PASSWORD"
+          fandogh image init --name="$FANDOGH_SERVICE_NAME"
+          fandogh image publish --version="v$GITHUB_RUN_ID"
+          fandogh service deploy --image="$FANDOGH_SERVICE_NAME" --version="v$GITHUB_RUN_ID" --name="$FANDOGH_SERVICE_NAME" --port 3000 --hosts="$APP_DOMAIN"
 
