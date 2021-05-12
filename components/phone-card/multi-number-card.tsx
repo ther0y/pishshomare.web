@@ -59,7 +59,7 @@ const MultiNumberCard: FC<MultiNumberCardProps> = ({
         </div>
 
         <div
-          className={`flex flex-wrap items-center justify-center space-x-2 mt-2 font-bold max-w-full`}
+          className={`flex flex-wrap items-center justify-center space-x-2 font-bold max-w-full`}
           dir="ltr"
         >
           {numbers?.map((n) => (
