@@ -1,16 +1,8 @@
 import { FC } from "react";
+import BaseCardProps from "@dataTypes/base-card-props";
 import { SearchCategories } from "../search-input/search-categories";
 import { css } from "@emotion/css";
-
 import tw from "twin.macro";
-
-export interface BaseCardProps {
-  number: string;
-  type: string;
-  title: string;
-  subtitle: string;
-  emoji?: string;
-}
 
 const BaseCard: FC<BaseCardProps> = ({
   title,
@@ -28,9 +20,11 @@ const BaseCard: FC<BaseCardProps> = ({
             flex
             items-center
             justify-center
-            w-28
-            h-16
-            text-xl
+            text-sm
+            w-20
+            h-12
+            sm:w-28
+            sm:h-16
             sm:text-xl`,
   });
 

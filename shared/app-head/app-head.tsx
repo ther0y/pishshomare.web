@@ -8,8 +8,11 @@ interface AppHeadProps {
 const AppHead: FC<AppHeadProps> = ({ title = "جستجوی اطلاعات تماس" }) => {
   return (
     <Head>
-      <title>پیش‌شماره | {title}</title>
-      <meta name="description" content="پیش شماره - جستجوی اطلاعات تماس" />
+      <title>پیش شماره | {title}</title>
+      <meta
+        name="description"
+        content="پیش شماره: سرویس جستجوی سریع اطلاعات تماس‌، کد استان‌ها، کد شهرها، شماره‌ی اپراتورهای موبایل، پیش‌ شماره‌ی کشورها و شماره تلفن سفارت ها."
+      />
     </Head>
   );
 };

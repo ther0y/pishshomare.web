@@ -1,16 +1,8 @@
 import { FC } from "react";
+import MultiNumberCardProps from "@dataTypes/multi-number-card-props";
 import { SearchCategories } from "../search-input/search-categories";
 import { css } from "@emotion/css";
-
 import tw from "twin.macro";
-
-export interface MultiNumberCardProps {
-  type: string;
-  title: string;
-  subtitle: string;
-  emoji?: string;
-  numbers: string[];
-}
 
 const MultiNumberCard: FC<MultiNumberCardProps> = ({
   title,

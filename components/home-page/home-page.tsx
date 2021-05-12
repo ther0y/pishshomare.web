@@ -22,15 +22,15 @@ const HomePage: FC<HomePageProps> = ({
     window.scrollTo(0, 0);
   }, []);
   return (
-    <>
+    <main>
       <div
         className="pt-8 pb-0 bg-gradient-to-r from-lightBlue-400 to-lightBlue-500 sticky top-0 z-30 shadow-lg"
         dir="rtl"
       >
         <div className="max-w-4xl flex flex-col justify-center mx-auto p-4">
-          <div className="mb-4 text-2xl sm:text-3xl font-semibold text-white text-center sm:text-right">
-            پیش‌شماره
-          </div>
+          <h1 className="mb-4 text-2xl sm:text-3xl font-semibold text-white text-center sm:text-right">
+            پیش شماره
+          </h1>
           <div className="flex-1 max-w-4xl">
             <SearchInput
               onResult={handleResult}
@@ -50,14 +50,15 @@ const HomePage: FC<HomePageProps> = ({
             code.type === SearchCategoryType.States ||
             code.type === SearchCategoryType.Operators ||
             code.type === SearchCategoryType.Emergencies ||
-            code.type === SearchCategoryType.Embassies
+            code.type === SearchCategoryType.Embassies ||
+            code.type === SearchCategoryType.Plates
               ? (code as Code).name.en + (code as Code).number.en[0]
               : code.name;
 
           return <PhoneCard key={key as string} data={code} />;
         })}
       </div>
-    </>
+    </main>
   );
 };
 

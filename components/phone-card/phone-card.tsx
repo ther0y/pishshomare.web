@@ -19,7 +19,10 @@ const PhoneCard: FC<{ data: PhoneCode | Code }> = ({ data }) => {
     return <BaseCard {...CodeToCardProps(data as Code)} />;
   } else if (data.type === SearchCategoryType.Operators) {
     return <BaseCard {...CodeToCardPropsWithSubtitle(data as Code)} />;
-  } else if (data.type === SearchCategoryType.Embassies) {
+  } else if (
+    data.type === SearchCategoryType.Embassies ||
+    data.type === SearchCategoryType.Plates
+  ) {
     return (
       <MultiNumberCard {...CodeToCardPropsWithMultipleNumbers(data as Code)} />
     );

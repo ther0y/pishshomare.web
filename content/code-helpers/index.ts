@@ -19,8 +19,8 @@ export const SearchCodes = (
       ...SearchEmergencies(query, category),
       ...SearchOperators(query, category),
       ...SearchEmbassies(query, category),
+      ...SearchPlates(query, category),
     ].sort(SortCodesByName(query)),
-    ...SearchPlates(query, category),
     ...SearchTehran(query, category),
   ];
 };

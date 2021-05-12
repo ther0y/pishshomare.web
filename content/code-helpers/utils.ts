@@ -1,6 +1,6 @@
 import { Code } from "@dataTypes/phone-code";
-import { BaseCardProps } from "@components/phone-card/base-card";
-import { MultiNumberCardProps } from "@components/phone-card/multi-number-card";
+import BaseCardProps from "@dataTypes/base-card-props";
+import MultiNumberCardProps from "@dataTypes/multi-number-card-props";
 
 export const SortCodesByName = (query: string, normalizedQuery?: string) => {
   return (a: Code, b: Code) => {
