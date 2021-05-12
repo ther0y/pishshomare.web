@@ -13,26 +13,23 @@ const MultiNumberCard: FC<MultiNumberCardProps> = ({
 }) => {
   const category = SearchCategories.find((s) => s.value === type);
 
-  const numbersBoxClasses = css({
+  const numbersClasses = css({
     backgroundColor: "#4c4c4c",
     height: "fit-content",
     fontSize: "14px",
     maxWidth: "100%",
     ...tw`rounded
             text-white
-            flex
-            items-center
-            justify-center
-            p-2
-            px-4
-            sm:h-16
-            sm:w-28
-            sm:text-xl`,
+            my-1
+            px-3
+            py-2
+            pb-1
+            text-xl`,
   });
 
   return (
     <div
-      className="p-2 py-2 pr-10 bg-white shadow-md rounded flex relative overflow-hidden hover:scale-150 w-full"
+      className="p-2 py-2 bg-white shadow-md rounded flex relative overflow-hidden hover:scale-150 w-full"
       style={{ minHeight: "90px" }}
       dir="rtl"
     >
@@ -50,31 +47,26 @@ const MultiNumberCard: FC<MultiNumberCardProps> = ({
           {category?.title}
         </div>
       </div>
-      <div className="flex-1 flex flex-col sm:flex-row w-full">
-        <div className="flex flex-col items-start justify-center text-md sm:text-xl pr-4">
+      <div className="flex-1 flex flex-col w-full  pr-12">
+        <div className="flex flex-col items-start justify-center text-md sm:text-xl">
           <div className="font-semibold">
             {title}
             {emoji && (
-              <span className="text-2xl pr-2 top-0.5 relative">{emoji}</span>
+              <span className="text-2xl top-0.5 relative">{emoji}</span>
             )}
           </div>
           <div className="text-sm text-gray-500">{subtitle}</div>
         </div>
 
         <div
-          className="flex flex-1 flex-grow justify-start font-bold"
+          className={`flex flex-wrap items-center justify-center space-x-2 mt-2 font-bold max-w-full`}
           dir="ltr"
         >
-          <div
-            className="flex flex-row items-center sm:grid space-x-2 sm:space-x-0 sm:grid-cols-3 sm:gap-2 sm:pr-8 md:pr-0 mt-2 sm:mt-0 font-bold max-w-full overflow-scroll no-scrollbar"
-            dir="ltr"
-          >
-            {numbers?.map((n) => (
-              <div key={n} className={numbersBoxClasses}>
-                {n}
-              </div>
-            ))}
-          </div>
+          {numbers?.map((n) => (
+            <div key={n} className={numbersClasses}>
+              {n}
+            </div>
+          ))}
         </div>
       </div>
     </div>

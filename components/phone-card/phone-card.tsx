@@ -17,18 +17,22 @@ const PhoneCard: FC<{ data: PhoneCode | Code }> = ({ data }) => {
     data.type === SearchCategoryType.Emergencies
   ) {
     return <BaseCard {...CodeToCardProps(data as Code)} />;
-  } else if (data.type === SearchCategoryType.Operators) {
+  }
+
+  if (data.type === SearchCategoryType.Operators) {
     return <BaseCard {...CodeToCardPropsWithSubtitle(data as Code)} />;
-  } else if (
+  }
+
+  if (
     data.type === SearchCategoryType.Embassies ||
     data.type === SearchCategoryType.Plates
   ) {
     return (
       <MultiNumberCard {...CodeToCardPropsWithMultipleNumbers(data as Code)} />
     );
-  } else {
-    return <GeneralCard data={data as PhoneCode} />;
   }
+
+  return <GeneralCard data={data as PhoneCode} />;
 };
 
 export default PhoneCard;
