@@ -1,5 +1,5 @@
 import { EmbassyCodes } from "@content/data/empassy-codes";
-import SearchCategoryType from "@enums/search-category-type";
+import SearchCategoryType from "../../src/enums/search-category-type";
 import { Code } from "@dataTypes/phone-code";
 import { SortCodesByName } from "@content/code-helpers/utils";
 

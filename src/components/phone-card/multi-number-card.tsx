@@ -1,36 +1,36 @@
 import { FC } from "react";
-import BaseCardProps from "@dataTypes/base-card-props";
+import MultiNumberCardProps from "@dataTypes/props/multi-number-card-props";
 import { SearchCategories } from "../search-input/search-categories";
 import { css } from "@emotion/css";
 import tw from "twin.macro";
 
-const BaseCard: FC<BaseCardProps> = ({
+const MultiNumberCard: FC<MultiNumberCardProps> = ({
   title,
   subtitle,
-  number,
+  numbers,
   type,
   emoji,
 }) => {
   const category = SearchCategories.find((s) => s.value === type);
 
-  const numberBoxClasses = css({
+  const numbersClasses = css({
     backgroundColor: "#4c4c4c",
+    height: "fit-content",
+    fontSize: "14px",
+    maxWidth: "100%",
     ...tw`rounded
             text-white
-            flex
-            items-center
-            justify-center
-            text-sm
-            w-20
-            h-12
-            sm:w-28
-            sm:h-16
-            sm:text-xl`,
+            my-1
+            px-3
+            py-2
+            pb-1
+            text-xl`,
   });
 
   return (
     <div
-      className="p-2 py-2 pr-10 bg-white shadow-md rounded flex relative overflow-hidden hover:scale-150"
+      className="p-2 py-2 bg-white shadow-md rounded flex relative overflow-hidden hover:scale-150 w-full"
+      style={{ minHeight: "90px" }}
       dir="rtl"
     >
       <div
@@ -47,22 +47,30 @@ const BaseCard: FC<BaseCardProps> = ({
           {category?.title}
         </div>
       </div>
-      <div className="flex-1 flex text-base sm:text-lg">
-        <div className="flex flex-col items-start justify-center text-md sm:text-xl pr-4">
+      <div className="flex-1 flex flex-col w-full  pr-12">
+        <div className="flex flex-col items-start justify-center text-md sm:text-xl">
           <div className="font-semibold">
             {title}
             {emoji && (
-              <span className="text-2xl pr-2 top-0.5 relative">{emoji}</span>
+              <span className="text-2xl top-0.5 relative">{emoji}</span>
             )}
           </div>
           <div className="text-sm text-gray-500">{subtitle}</div>
         </div>
-        <div className="flex flex-1 justify-start font-bold" dir="ltr">
-          <div className={numberBoxClasses}>{number}</div>
+
+        <div
+          className={`flex flex-wrap items-center justify-center space-x-2 font-bold max-w-full`}
+          dir="ltr"
+        >
+          {numbers?.map((n: string) => (
+            <div key={n} className={numbersClasses}>
+              {n}
+            </div>
+          ))}
         </div>
       </div>
     </div>
   );
 };
 
-export default BaseCard;
+export default MultiNumberCard;

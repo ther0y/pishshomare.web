@@ -1,13 +1,13 @@
-import MainLayout from "@layouts/main";
-import HomePage from "@components/home-page/home-page";
+import MainLayout from "../src/layouts/main";
+import HomePage from "../src/components/home-page/home-page";
 import { SearchCodes } from "@content/code-helpers";
 import { GetStaticProps } from "next";
-import { PhoneCode } from "@dataTypes/phone-code";
-import SearchCategoryType from "@enums/search-category-type";
+import { Code } from "@dataTypes/phone-code";
+import SearchCategoryType from "../src/enums/search-category-type";
 import { SearchCategory } from "@dataTypes/search-category";
 
 interface HomeProps {
-  codes: PhoneCode[];
+  codes: Code[];
   category: SearchCategory;
 }
 

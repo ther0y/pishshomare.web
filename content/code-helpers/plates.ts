@@ -1,6 +1,6 @@
 import { Code } from "@dataTypes/phone-code";
 import { PlateCodes } from "@content/data/plate-codes";
-import SearchCategoryType from "@enums/search-category-type";
+import SearchCategoryType from "../../src/enums/search-category-type";
 import { SortCodesByName } from "@content/code-helpers/utils";
 
 const DataCategory = SearchCategoryType.Plates;

@@ -1,13 +1,11 @@
-import { FC } from "react";
+import { FC, useCallback, useState } from "react";
+import { Code } from "@dataTypes/phone-code";
+import { SearchCategory } from "@dataTypes/search-category";
 import SearchInput from "@components/search-input/search-input";
 import PhoneCard from "@components/phone-card/phone-card";
-import { useCallback, useState } from "react";
-import { Code, PhoneCode } from "@dataTypes/phone-code";
-import SearchCategoryType from "@enums/search-category-type";
-import { SearchCategory } from "@dataTypes/search-category";
 
 interface HomePageProps {
-  codes: PhoneCode[];
+  codes: Code[];
   initialCategory: SearchCategory;
 }
 
@@ -15,7 +13,7 @@ const HomePage: FC<HomePageProps> = ({
   codes: initialCodes,
   initialCategory,
 }) => {
-  const [codes, setCodes] = useState<(PhoneCode | Code)[]>(initialCodes);
+  const [codes, setCodes] = useState<Code[]>(initialCodes);
 
   const handleResult = useCallback((results) => {
     setCodes(results);
@@ -45,15 +43,7 @@ const HomePage: FC<HomePageProps> = ({
       </div>
       <div className="max-w-4xl mx-auto space-y-3 gap-4 my-3 px-4" dir="rtl">
         {codes.map((code) => {
-          const key =
-            code.type === SearchCategoryType.Countries ||
-            code.type === SearchCategoryType.States ||
-            code.type === SearchCategoryType.Operators ||
-            code.type === SearchCategoryType.Emergencies ||
-            code.type === SearchCategoryType.Embassies ||
-            code.type === SearchCategoryType.Plates
-              ? (code as Code).name.en + (code as Code).number.en[0]
-              : code.name;
+          const key = code.name.en + code.number.en[0];
 
           return <PhoneCard key={key as string} data={code} />;
         })}

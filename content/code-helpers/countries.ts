@@ -1,7 +1,7 @@
 import { Code } from "@dataTypes/phone-code";
 import { CountryCodes } from "@content/data/country-codes";
 import { SortCodesByName } from "@content/code-helpers/utils";
-import SearchCategoryType from "@enums/search-category-type";
+import SearchCategoryType from "../../src/enums/search-category-type";
 
 const DataCategory = SearchCategoryType.Countries;
 

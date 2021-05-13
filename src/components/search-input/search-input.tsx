@@ -1,16 +1,16 @@
 import React, { FC, useEffect, useState } from "react";
-import DropDown from "@components/drop-down/drop-down";
-import { SearchCategories } from "@components/search-input/search-categories";
-import { Code, PhoneCode } from "@dataTypes/phone-code";
+import { Code } from "@dataTypes/phone-code";
 import { SearchCodes } from "@content/code-helpers";
 import { SearchCategory } from "@dataTypes/search-category";
+import { SearchCategories } from "@components/search-input/search-categories";
 import SearchCategoryType from "@enums/search-category-type";
+import DropDown from "@components/drop-down/drop-down";
 
 interface SearchInputProps {
   placeholder?: string;
   fill?: boolean;
   initialCategory: SearchCategory;
-  onResult: (codes: (PhoneCode | Code)[]) => void;
+  onResult: (codes: Code[]) => void;
 }
 
 const SearchInput: FC<SearchInputProps> = ({

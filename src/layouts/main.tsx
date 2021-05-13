@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import AppHead from "@shared/app-head/app-head";
+import AppHead from "../shared/app-head/app-head";
 
 interface MainLayoutProps {
   title?: string;

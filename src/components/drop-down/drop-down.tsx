@@ -2,11 +2,11 @@ import { FC, useState } from "react";
 import { Menu } from "@headlessui/react";
 import tw from "twin.macro";
 import { css } from "@emotion/css";
-import ActivableMenuItem from "@components/drop-down/activable-menu-item";
-import DropDownItem from "@dataTypes/drop-down-item";
 
 import { ChevronDownIcon } from "@heroicons/react/solid";
+import DropDownItem from "@dataTypes/drop-down-item";
 import { SearchCategory } from "@dataTypes/search-category";
+import ActivableMenuItem from "@components/drop-down/activable-menu-item";
 
 interface DropDownProps {
   items: DropDownItem[];

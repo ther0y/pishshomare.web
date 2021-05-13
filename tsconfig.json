@@ -3,13 +3,13 @@
     "target": "es5",
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["./components/*"],
-      "@shared/*": ["./shared/*"],
-      "@layouts/*": ["./layouts/*"],
+      "@components/*": ["./src/components/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@layouts/*": ["./src/layouts/*"],
       "@pages/*": ["./pages/*"],
       "@content/*": ["./content/*"],
-      "@dataTypes/*": ["./types/*"],
-      "@enums/*": ["./enums/*"],
+      "@dataTypes/*": ["./src/types/*"],
+      "@enums/*": ["./src/enums/*"],
     },
     "lib": [
       "dom",

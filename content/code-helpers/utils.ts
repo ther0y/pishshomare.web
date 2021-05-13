@@ -1,6 +1,6 @@
 import { Code } from "@dataTypes/phone-code";
-import BaseCardProps from "@dataTypes/base-card-props";
-import MultiNumberCardProps from "@dataTypes/multi-number-card-props";
+import BaseCardProps from "@dataTypes/props/base-card-props";
+import MultiNumberCardProps from "@dataTypes/props/multi-number-card-props";
 
 export const SortCodesByName = (query: string, normalizedQuery?: string) => {
   return (a: Code, b: Code) => {
@@ -43,10 +43,11 @@ export const CodeToCardPropsWithSubtitle = (data: Code): BaseCardProps => ({
 });
 
 export const CodeToCardPropsWithMultipleNumbers = (
-  data: Code
+  data: Code,
+  subtitle?: string
 ): MultiNumberCardProps => ({
   title: data.name.fa,
-  subtitle: data.name.en,
+  subtitle: subtitle || data.name.en,
   type: data.type,
   numbers: data.number.fa,
   emoji: data.metadata?.emoji,

@@ -42,5 +42,5 @@
         "aspects": ["invalidHref", "preferButton"]
       }
     ]
-  },
+  }
 }

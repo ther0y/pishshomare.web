@@ -5,22 +5,17 @@ import { SearchPlates } from "./plates";
 import { SearchEmergencies } from "./emergencies";
 import { SearchTehran } from "./tehran";
 import { SearchEmbassies } from "./embassies";
-import { Code, PhoneCode } from "@dataTypes/phone-code";
+import { Code } from "@dataTypes/phone-code";
 import { SortCodesByName } from "@content/code-helpers/utils";
 
-export const SearchCodes = (
-  query: string,
-  category: string
-): (PhoneCode | Code)[] => {
+export const SearchCodes = (query: string, category: string): Code[] => {
   return [
-    ...[
-      ...SearchStates(query, category),
-      ...SearchCountries(query, category),
-      ...SearchEmergencies(query, category),
-      ...SearchOperators(query, category),
-      ...SearchEmbassies(query, category),
-      ...SearchPlates(query, category),
-    ].sort(SortCodesByName(query)),
+    ...SearchStates(query, category),
+    ...SearchCountries(query, category),
+    ...SearchEmergencies(query, category),
+    ...SearchOperators(query, category),
+    ...SearchEmbassies(query, category),
+    ...SearchPlates(query, category),
     ...SearchTehran(query, category),
-  ];
+  ].sort(SortCodesByName(query));
 };

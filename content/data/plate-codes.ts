@@ -310,8 +310,8 @@ export const PlateCodes = [
       en: "Markazi",
     },
     number: {
-      fa: ["۶۷", "۵۷", "۶۷"],
-      en: ["47", "57", "67"],
+      fa: ["۶۷", "۵۷", "۴۷"],
+      en: ["47", "57", "47"],
     },
     type: "Plates",
   },

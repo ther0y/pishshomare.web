@@ -1,5 +1,5 @@
-import SearchCategoryType from "@enums/search-category-type";
 import { SearchCategory } from "@dataTypes/search-category";
+import SearchCategoryType from "@enums/search-category-type";
 
 export const SearchCategories: SearchCategory[] = [
   {
